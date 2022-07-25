@@ -40,6 +40,12 @@ const PlayerSelection = () => {
             setPlayerTeam(player.team);
         })
     }
+
+    // resets maps and gamemode when player is changed
+    useEffect(() => {
+        setCompareGamemode("")
+        setCompareMap("")
+    }, [playerId])
     
     // used to gather maps available for certain gamemodes
     const handleGameModePick = (e) => {
