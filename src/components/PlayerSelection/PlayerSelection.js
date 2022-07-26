@@ -10,7 +10,15 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 
 // statcard component
-import StateCard from '../StatCard/StatCard';
+import StateCard from '../StatCards/StatCard';
+
+//  import MUI
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import FormControl from '@mui/material/FormControl';
+import Select from '@mui/material/Select';
+import Button from '@mui/material/Button';
+
 
 const PlayerSelection = () => {
     // state to keep track of who was picked
@@ -150,23 +158,61 @@ const PlayerSelection = () => {
     }, [compareGamemode, compareMap])
 
 
+    const [playerName, setPlayerName] = React.useState('');
+    const [open, setOpen] = React.useState(false);
+
+    const handleChange = (event) => {
+        setPlayerName(event.target.value);
+    };
+    const handleClose = () => {
+        setOpen(false);
+    };
+
+    const handleOpen = () => {
+        setOpen(true);
+    };
+
   return (
     <>
+        <div><h4>Hello</h4></div>
+        <div>
+        <FormControl sx={{ m: 1, width: 300, mt: 3 }}>
+        <InputLabel id="demo-controlled-open-select-label">Select Player</InputLabel>
+        <Select
+          labelId="demo-controlled-open-select-label"
+          id="demo-controlled-open-select"
+          open={open}
+          value={playerName}
+          onChange={handleChange}
+          onClose={handleClose}
+          onOpen={handleOpen}
+          label="Select Player"
+        >
+        {playerDb.map(player => (
+            <MenuItem value={player.name} id={player.name} onClick={handlePlayerPicked}>{player.name}</MenuItem>
+        ))}
+          
+    
+        </Select>
+      </FormControl>
+        </div>
         {/* Player choices */}
-        <DropdownButton id="dropdown-basic-button" title="Player Choices">
+        {/* <DropdownButton id="input-group-dropdown-1" title="Player Choices" variant="outline-secondary">
             {playerDb.map(player => (
                 <Dropdown.Item id={player.name} onClick={handlePlayerPicked}>{player.name}</Dropdown.Item>
             ))}
-        </DropdownButton>
+        </DropdownButton> */}
 
 
 
         {/* If a player has been selected display their name, team and image of them*/}
         {(playerId !== "") ? (
-          <div>
+        <div>
             <img src={`images/Players/${playerId}.png`} alt={playerId} />
+            
             <h4>{playerId}</h4>
             <h4>{selectedPlayerTeam}</h4>
+
 
             {/* Drop downs for gamemode */}
             <DropdownButton id="dropdown-basic-button" title="Gamemode">
@@ -180,6 +226,7 @@ const PlayerSelection = () => {
             ) : (
                 <div></div>
             )}
+
 
             {/* Drop downs for maps */}
             <DropdownButton id="dropdown-basic-button" title="Maps">
@@ -200,7 +247,7 @@ const PlayerSelection = () => {
             {(playerStatsKills.length > 0) ? (
                 
                 playerStatsKills.map(stats => (
-                   <h4>{stats}</h4>
+                <h4>{stats}</h4>
                 ))
             ) : (
                 <div>kills length is zero</div>
@@ -208,7 +255,7 @@ const PlayerSelection = () => {
             {(playerStatsOpponent.length > 0) ? (
                 
                 playerStatsOpponent.map(stats => (
-                   <h4>{stats}</h4>
+                <h4>{stats}</h4>
                 ))
             ) : (
                 <div>Opponenet length is zero</div>
@@ -220,12 +267,13 @@ const PlayerSelection = () => {
             )}
 
 
-          </div>
+        </div>
         ) : (
-          <div>
+        <div>
             {/* empty */}
-          </div>
+        </div>
         )}
+
    </>
   )
 }
