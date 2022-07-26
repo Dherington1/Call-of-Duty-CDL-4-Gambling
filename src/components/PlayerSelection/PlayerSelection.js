@@ -1,13 +1,10 @@
 import React from 'react'
 import {useState, useEffect} from 'react';
+import './PlayerSelection.css'
 
 // DB information
 import playerDb from '../../db/playerDb';
 import gameModes from '../../db/gameMode';
-
-// Player selection drop down
-import Dropdown from 'react-bootstrap/Dropdown';
-import DropdownButton from 'react-bootstrap/DropdownButton';
 
 // statcard component
 import StateCard from '../StatCards/StatCard';
@@ -17,7 +14,11 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
-import Button from '@mui/material/Button';
+import { styled } from '@mui/material/styles';
+import Grid from '@mui/material/Grid';
+import Paper from '@mui/material/Paper';
+import Box from '@mui/material/Box';
+
 
 
 const PlayerSelection = () => {
@@ -53,6 +54,8 @@ const PlayerSelection = () => {
     useEffect(() => {
         setCompareGamemode("")
         setCompareMap("")
+        setModeName("")
+        setMapName("")
     }, [playerId])
     
     // used to gather maps available for certain gamemodes
@@ -158,120 +161,208 @@ const PlayerSelection = () => {
     }, [compareGamemode, compareMap])
 
 
+    // For MUI player selection
     const [playerName, setPlayerName] = React.useState('');
     const [open, setOpen] = React.useState(false);
 
-    const handleChange = (event) => {
+    const handlePlayerChange = (event) => {
         setPlayerName(event.target.value);
     };
-    const handleClose = () => {
+    const handleClosePlayer = () => {
         setOpen(false);
     };
-
-    const handleOpen = () => {
+    const handleOpenPlayer = () => {
         setOpen(true);
     };
 
+
+    // Item Mui component
+    const Item = styled(Paper)(({ theme }) => ({
+        padding: theme.spacing(1),
+        textAlign: 'center',
+    }));
+
+
+    // For MUI Gamemode selection
+    const [modeName, setModeName] = React.useState('');
+    const [openMode, setOpenMode] = React.useState(false);
+
+    const handleModeChange = (event) => {
+        setModeName(event.target.value);
+    };
+    const handleCloseMode = () => {
+        setOpenMode(false);
+    };
+    const handleOpenMode = () => {
+        setOpenMode(true);
+    };
+
+
+     // For MUI map selection
+    const [mapName, setMapName] = React.useState('');
+    const [openMap, setOpenMap] = React.useState(false);
+
+    const handleMapChange = (event) => {
+        setMapName(event.target.value);
+    };
+    const handleCloseMap = () => {
+        setOpenMap(false);
+    };
+    const handleOpenMap = () => {
+        setOpenMap(true);
+    };
+
+
   return (
     <>
-        <div><h4>Hello</h4></div>
-        <div>
-        <FormControl sx={{ m: 1, width: 300, mt: 3 }}>
-        <InputLabel id="demo-controlled-open-select-label">Select Player</InputLabel>
-        <Select
-          labelId="demo-controlled-open-select-label"
-          id="demo-controlled-open-select"
-          open={open}
-          value={playerName}
-          onChange={handleChange}
-          onClose={handleClose}
-          onOpen={handleOpen}
-          label="Select Player"
-        >
-        {playerDb.map(player => (
-            <MenuItem value={player.name} id={player.name} onClick={handlePlayerPicked}>{player.name}</MenuItem>
-        ))}
-          
-    
-        </Select>
-      </FormControl>
-        </div>
-        {/* Player choices */}
-        {/* <DropdownButton id="input-group-dropdown-1" title="Player Choices" variant="outline-secondary">
-            {playerDb.map(player => (
-                <Dropdown.Item id={player.name} onClick={handlePlayerPicked}>{player.name}</Dropdown.Item>
-            ))}
-        </DropdownButton> */}
-
-
+        {/* centered Player Selection drop down */}
+        <Box sx={{ flexGrow: 1 }}>
+            <Grid container spacing={2}>
+                <Grid item xs={12} md={12}>
+                    <Item>         
+                        <div style={{justifyContent: "center"}}>
+                            <FormControl sx={{ m: 1, width: 300, mt: 3 }}>
+                            <InputLabel id="demo-controlled-open-select-label">Select Player</InputLabel>
+                                <Select
+                                labelId="demo-controlled-open-select-label"
+                                id="demo-controlled-open-select"
+                                open={open}
+                                value={playerName}
+                                onChange={handlePlayerChange}
+                                onClose={handleClosePlayer}
+                                onOpen={handleOpenPlayer}
+                                label="Select Player"
+                                >
+                                    {playerDb.map(player => (
+                                        <MenuItem value={player.name} id={player.name} onClick={handlePlayerPicked}>{player.name}</MenuItem>
+                                    ))}
+                                </Select>
+                            </FormControl>
+                        </div>
+                    </Item>
+                </Grid>
+            </Grid>
+        </Box>
 
         {/* If a player has been selected display their name, team and image of them*/}
         {(playerId !== "") ? (
-        <div>
-            <img src={`images/Players/${playerId}.png`} alt={playerId} />
-            
-            <h4>{playerId}</h4>
-            <h4>{selectedPlayerTeam}</h4>
+            <div >
+                {/* Player image display */}
+                <Box sx={{ flexGrow: 1 }}>
+                    <Grid container spacing={2}>
+                        <Grid item xs={12} md={12}>
+                            <Item>
+                                <img className='PlayerImg' justify="center" src={`images/Players/${playerId}.png`} alt={playerId} />
+                            </Item>
+                        </Grid>
+                    </Grid>
+                </Box>
+
+                {/* Player name and team display */}
+                <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
+                    <Grid item xs={6}>
+                        <Item className='PlayerNameItem'>
+                            <h4>{playerId}</h4>
+                        </Item>
+                    </Grid>
+                    <Grid item xs={6}>
+                        <Item>
+                            {selectedPlayerTeam}
+                        </Item>
+                    </Grid>
+                </Grid>
 
 
-            {/* Drop downs for gamemode */}
-            <DropdownButton id="dropdown-basic-button" title="Gamemode">
-                {gameModes.map(mode => (
-                    <Dropdown.Item id={mode.title} onClick={handleGameModePick}> {mode.title} </Dropdown.Item>
-                ))}
-            </DropdownButton>
-            {/* Says which gamemode was picked */}
-            {(compareGamemode !== "") ? (
-                <h4>{compareGamemode}</h4>
-            ) : (
-                <div></div>
-            )}
+                {/* Drop downs for gamemode */}
+                <Box sx={{ flexGrow: 1 }}>
+                    <Grid container spacing={2}>
+                        <Grid item xs={12} md={12}>
+                            <Item>         
+                                <div style={{justifyContent: "center"}}>
+                                    <FormControl sx={{ m: 1, width: 300, mt: 3 }}>
+                                    <InputLabel id="demo-controlled-open-select-label">Select Gamemode</InputLabel>
+                                        <Select
+                                        labelId="demo-controlled-open-select-label"
+                                        id="demo-controlled-open-select"
+                                        open={openMode}
+                                        value={modeName}
+                                        onChange={handleModeChange}
+                                        onClose={handleCloseMode}
+                                        onOpen={handleOpenMode}
+                                        label="Select Gamemode"
+                                        >
+                                            {gameModes.map(mode => (
+                                                <MenuItem value={mode.title} id={mode.title} onClick={handleGameModePick}>{mode.title}</MenuItem>
+                                            ))}
+                                        </Select>
+                                    </FormControl>
+                                </div>
+                            </Item>
+                        </Grid>
+                    </Grid>
+                </Box>
 
 
-            {/* Drop downs for maps */}
-            <DropdownButton id="dropdown-basic-button" title="Maps">
-                {modes.map(maps => (
-                    <Dropdown.Item id={maps} onClick={MapsFromGameMode}> {maps} </Dropdown.Item>
-                ))}
-            </DropdownButton>
-            {/* says which map was picked */}
-            {(compareMap !== "") ? (
-                <h4>{compareMap}</h4>
-            ) : (
-                <div></div>
-            )}
+                {/* Drop downs for maps */}
+                <Box sx={{ flexGrow: 1 }}>
+                    <Grid container spacing={2}>
+                        <Grid item xs={12} md={12}>
+                            <Item>         
+                                <div style={{justifyContent: "center"}}>
+                                    <FormControl sx={{ m: 1, width: 300, mt: 3 }}>
+                                    <InputLabel id="demo-controlled-open-select-label">Select Map</InputLabel>
+                                        <Select
+                                        labelId="demo-controlled-open-select-label"
+                                        id="demo-controlled-open-select"
+                                        open={openMap}
+                                        value={mapName}
+                                        onChange={handleMapChange}
+                                        onClose={handleCloseMap}
+                                        onOpen={handleOpenMap}
+                                        label="Select Map"
+                                        >
+                                            {modes.map(maps => (
+                                                <MenuItem value={maps} id={maps} onClick={MapsFromGameMode}>{maps}</MenuItem>
+                                            ))}
+                                        </Select>
+                                    </FormControl>
+                                </div>
+                            </Item>
+                        </Grid>
+                    </Grid>
+                </Box>                                
 
 
-            {/* Player stats will go here */}
-            {/* if our state is not empty as we need it to be full with the compared information */}
-            {(playerStatsKills.length > 0) ? (
-                
-                playerStatsKills.map(stats => (
-                <h4>{stats}</h4>
-                ))
-            ) : (
-                <div>kills length is zero</div>
-            )}
-            {(playerStatsOpponent.length > 0) ? (
-                
-                playerStatsOpponent.map(stats => (
-                <h4>{stats}</h4>
-                ))
-            ) : (
-                <div>Opponenet length is zero</div>
-            )}
-            {(playerStatsAvg.length !== "") ? (
-                <h4>{playerStatsAvg}</h4>
-            ) : (
-                <div>Average length is zero</div>
-            )}
+                {/* Player stats will go here */}
+                {/* if our state is not empty as we need it to be full with the compared information */}
+                {(playerStatsKills.length > 0) ? (
+                    
+                    playerStatsKills.map(stats => (
+                    <h4>{stats}</h4>
+                    ))
+                ) : (
+                    <div>kills length is zero</div>
+                )}
+                {(playerStatsOpponent.length > 0) ? (
+                    
+                    playerStatsOpponent.map(stats => (
+                    <h4>{stats}</h4>
+                    ))
+                ) : (
+                    <div>Opponenet length is zero</div>
+                )}
+                {(playerStatsAvg.length !== "") ? (
+                    <h4>{playerStatsAvg}</h4>
+                ) : (
+                    <div>Average length is zero</div>
+                )}
 
 
-        </div>
+            </div>
         ) : (
-        <div>
-            {/* empty */}
-        </div>
+            <div>
+                {/* empty */}
+            </div>
         )}
 
    </>
