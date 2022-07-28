@@ -333,54 +333,59 @@ const PlayerSelection = () => {
                 {/* Wrap all these in one big box in this component  */}
               
                 {(playerStatsOpponent.length > 0) ? (
-                    <Container className='statContainer'>
-                        <Row className='statTitleRow'>
-                            <Col xs={3} sm={2}>Player</Col>
-                            <Col xs={2} sm={2}>VS.</Col>
-                            <Col xs={3} sm={2}>Opponent</Col>
-                            <Col xs={4} sm={2}>Kills / Deaths</Col>
-                            <Col className='element-to-hide' xs={1} sm={2}>Mode</Col>
-                            <Col className='element-to-hide' xs={1} sm={2}>Map</Col>
-                        </Row>
-                        <Row className='statRow'>
-                            <Col xs={3} sm={3}>
-                                {playerStatsOpponent.map(stats => (
-                                    <ExtraStatCard extra={playerName} />
-                                ))}
-                            </Col>
-                            <Col xs={2} sm={3}>
-                                {playerStatsOpponent.map(stats => (
-                                    <ExtraStatCard extra={VS} />
-                                ))}
-                            </Col>
-                            <Col xs={3} sm={3}>
-                                {playerStatsOpponent.map(stats => (
-                                    <OpponentCard opp={stats} />
-                                ))}
-                            </Col>
-                            <Col xs={4} sm={3}>
-                                {playerStatsKills.map(stats => (
-                                    <KillCard kills={stats} />
-                                ))}
-                            </Col>
-                            
-                            <Col className='element-to-hide' xs={2} sm={3}>
-                                {playerStatsOpponent.map(stats => (
-                                    <ExtraStatCard extra={compareGamemode} />
-                                ))}
-                            </Col>
-                            <Col className='element-to-hide' xs={2} sm={3}>
-                                {playerStatsOpponent.map(stats => (
-                                    <ExtraStatCard  extra={compareMap} />
-                                ))}
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col xs={12}>
-                                <AverageCard avg={playerStatsAvg} />
-                            </Col>
-              
-                        </Row>
+                    <Container className='statContainer teamBuilder'>
+                        <form className="teamForm">
+                            <fieldset className="teamFieldset">
+                                <Row className='statTitleRow'>
+                                    <Col xs={3} sm={3} md={2}>Player</Col>
+                                    <Col xs={2} sm={3} md={2}>VS.</Col>
+                                    <Col xs={3} sm={3} md={2}>Opponent</Col>
+                                    <Col xs={4} sm={3} md={2}>Kills / Deaths</Col>
+                                    <Col className='element-to-hide' xs={1} sm={2} md={2}>Mode</Col>
+                                    <Col className='element-to-hide' xs={1} sm={2} md={2}>Map</Col>
+                                </Row>
+                                <Row className='statRow'>
+                                    <Col xs={3} sm={3} md={2}>
+                                        {playerStatsOpponent.map(stats => (
+                                            <ExtraStatCard extra={playerName} />
+                                        ))}
+                                    </Col>
+                                    <Col xs={2} sm={3} md={2}>
+                                        {playerStatsOpponent.map(stats => (
+                                            <ExtraStatCard extra={VS} />
+                                        ))}
+                                    </Col>
+                                    <Col xs={3} sm={3} md={2}>
+                                        {playerStatsOpponent.map(stats => (
+                                            <OpponentCard opp={stats} />
+                                        ))}
+                                    </Col>
+                                    <Col xs={4} sm={3} md={2}>
+                                        {playerStatsKills.map(stats => (
+                                            <KillCard kills={stats} />
+                                        ))}
+                                    </Col>
+                                    
+                                    <Col className='element-to-hide' xs={2} sm={3} md={2}>
+                                        {playerStatsOpponent.map(stats => (
+                                            <ExtraStatCard extra={compareGamemode} />
+                                        ))}
+                                    </Col>
+                                    <Col className='element-to-hide' xs={2} sm={3} md={2}>
+                                        {playerStatsOpponent.map(stats => (
+                                            <ExtraStatCard  extra={compareMap} />
+                                        ))}
+                                    </Col>
+                                </Row>
+                                <Row>
+                                    <Col xs={12}>
+                                        <AverageCard avg={playerStatsAvg} />
+                                    </Col>
+                    
+                                </Row>
+                            </fieldset>
+                        </form>
+
                     </Container>
                 ): (
                     <div>

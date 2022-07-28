@@ -22,7 +22,7 @@ const playerDb = [
                         "map": "Bocage",   
                         "stats": {
                             "kills": ["35 / 29", "28 / 30", "33 / 32", "36 / 31", "34 / 32", "29 / 44", "36 / 32", "29 / 33", "38 / 30", "27 / 34", "30 / 36", "30 / 32", "31 / 27", "34 / 34", "31 / 29", "33 / 33", "34 / 33", "37 / 33", "24 / 28"],
-                            "Opponent": ["Ravens", "Legion", "Ultra", "Surge", "Faze", "Surge", "Mutineers", "Surge", "cc", "Guerillas", "Breach", "Rokkr", "Legion", "Subliners", "Ultra", "Rokkr", "Breach", "Ultra", "Faze"],
+                            "Opponent": ["Ravens", "Legion", "Ultra", "Surge", "Faze", "Surge", "Mutineers", "Surge", "Thieves", "Guerillas", "Breach", "Rokkr", "Legion", "Subliners", "Ultra", "Rokkr", "Breach", "Ultra", "Faze"],
                             "Average": "32.05"
                         }
                     },

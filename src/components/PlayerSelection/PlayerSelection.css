@@ -3,17 +3,46 @@
 }
 
 .statTitleRow {
-
+    font-weight: bold;
 }
 
 .statRow {
     margin-bottom: 10px;
 }
 
+.teamBuilder{
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+.teamBuilder h3 {
+    text-align: center;
+    margin: 0px;
+    font-size: large;
+}
+.teamForm {
+    max-width: 100%;
+    margin: 10px auto;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    background: #eeeeee;
+}
+.teamFieldset {
+    padding: 20px 10px;
+    border: none;
+    max-height: 50%;
+    /* margin: 10%; */
+}
+.teamFieldset h3{
+    margin: 0px;
+    font-size: 24px;
+}
 
 /* Hide maps and mode on mobile */
-@media (max-width: 600px) {
+@media (max-width: 767px) {
     .element-to-hide {
       display: none;
     }
 }
+
+
