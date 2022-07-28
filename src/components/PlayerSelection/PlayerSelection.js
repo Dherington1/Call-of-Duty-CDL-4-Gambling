@@ -11,6 +11,7 @@ import KillCard from '../StatCards/KillCard';
 import OpponentCard from '../StatCards/OpponentCard';
 import AverageCard from '../StatCards/AverageCard';
 import ExtraStatCard from '../StatCards/ExtraStatCard'
+import DisplayTotals from '../displayTotals/DisplayTotals'
 
 //  import MUI
 import InputLabel from '@mui/material/InputLabel';
@@ -26,7 +27,13 @@ import Box from '@mui/material/Box';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { ViewSidebar } from '@mui/icons-material';
+
+// bring in our global variable
+import {useDispatch} from 'react-redux';
+import {useSelector} from 'react-redux';
+
+// action to remove avg
+import {deleteAvg} from '../../Redux/Action/action';
 
 
 const PlayerSelection = () => {
@@ -207,7 +214,7 @@ const PlayerSelection = () => {
     };
 
 
-     // For MUI map selection
+    // For MUI map selection
     const [mapName, setMapName] = React.useState('');
     const [openMap, setOpenMap] = React.useState(false);
 
@@ -220,8 +227,34 @@ const PlayerSelection = () => {
     const handleOpenMap = () => {
         setOpenMap(true);
     };
+
     
+    // used in stats for wording
     const VS = "VS."
+
+
+    // Redux //
+    // reference to global state to grab data
+    const total = useSelector(state => state.total.total);
+    // reference to global state to push an action to data 
+    const dispatch = useDispatch();  
+
+
+    // remove pokemon from global state
+    const handleRemove = (e) => {
+        e.preventDefault();
+        // delete based off number from id
+        let selected = e.target.id;
+
+
+        dispatch(
+            // use action deleteAvg
+            deleteAvg({
+                id: selected
+            })
+        )
+    }
+
 
   return (
     <>
@@ -268,6 +301,7 @@ const PlayerSelection = () => {
                         </Grid>
                     </Grid>
                 </Box>
+
 
                 {/* Drop downs for gamemode */}
                 <Box sx={{ flexGrow: 1 }}>
@@ -326,12 +360,32 @@ const PlayerSelection = () => {
                             </Item>
                         </Grid>
                     </Grid>
-                </Box>                                
+                </Box>              
+
+
+                {/* Total of all the averages here */}
+                {(playerStatsOpponent.length > 0) ? (    
+                    <div>
+                        <h4 style={{textAlignVertical: "center",textAlign: "center", padding: "15px"}}>Series Average</h4>
+
+                        {/* pull from global here */}
+                        {total.map(nums => 
+                           <DisplayTotals totals={nums} />
+                        )}
+                    </div>                              
+                ) : (
+                    <div>
+                        {/* empty */}
+                    </div>
+                )}
+
+
+
+
+
 
 
                 {/* Player stats will go here */}
-                {/* Wrap all these in one big box in this component  */}
-              
                 {(playerStatsOpponent.length > 0) ? (
                     <Container className='statContainer teamBuilder'>
                         <form className="teamForm">
@@ -379,7 +433,7 @@ const PlayerSelection = () => {
                                 </Row>
                                 <Row>
                                     <Col xs={12}>
-                                        <AverageCard avg={playerStatsAvg} />
+                                        <AverageCard avg={playerStatsAvg} mode={compareGamemode}/>
                                     </Col>
                     
                                 </Row>
@@ -392,19 +446,6 @@ const PlayerSelection = () => {
                         {/* empty */}
                     </div>
                 )}                                 
-
-
-{/* 
-                {playerStatsKills.map(stats => (
-                    <KillCard kills={stats} />
-                ))}
-                
-                {playerStatsOpponent.map(stats => (
-                    <OpponentCard opp={stats} />
-                ))}
-
-                <AverageCard avg={playerStatsAvg} /> */}
-
 
             </div>
         ) : (
