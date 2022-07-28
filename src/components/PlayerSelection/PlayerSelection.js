@@ -239,8 +239,7 @@ const PlayerSelection = () => {
     // reference to global state to push an action to data 
     const dispatch = useDispatch();  
 
-
-    // remove pokemon from global state
+    // remove avg from global state
     const handleRemove = (e) => {
         e.preventDefault();
         // delete based off number from id
@@ -255,6 +254,13 @@ const PlayerSelection = () => {
         )
     }
 
+    // determining the total avg
+    let avgTotal = 0;
+    for(let i=0; i<total.length; i++) {
+        avgTotal += total[i].id;
+    }
+
+    
 
   return (
     <>
@@ -369,20 +375,41 @@ const PlayerSelection = () => {
                         <h4 style={{textAlignVertical: "center",textAlign: "center", padding: "15px"}}>Series Average</h4>
 
                         {/* pull from global here */}
-                        {total.map(nums => 
-                           <DisplayTotals totals={nums} />
-                        )}
+                        <Container>
+                            {/* {(total.length > 0) ? (
+                                <Row>
+                                    <Col>Hardpoint</Col>
+                                    <Col>Search and Destroy</Col>
+                                    <Col>Control</Col>
+                                    <Col>Total</Col>
+                                </Row>
+                            ) : (
+                                <div></div>
+                            )} */}
+
+
+                            <Row>
+                                {total.map(nums => 
+                                    <DisplayTotals totals={nums} />
+                                )}
+
+                                {/* only show when all there maps were added */}
+                                {(total.length === 3) ? (
+                                    <Col>
+                                        <p>Total</p>
+                                        {avgTotal}
+                                    </Col>
+                                ) : (
+                                    <div></div>
+                                )} 
+                            </Row>
+                        </Container>
                     </div>                              
                 ) : (
                     <div>
                         {/* empty */}
                     </div>
                 )}
-
-
-
-
-
 
 
                 {/* Player stats will go here */}

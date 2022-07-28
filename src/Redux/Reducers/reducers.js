@@ -22,9 +22,14 @@ const totalReducer = createReducer(initialState, (builder) => {
             })
             // case to delete avg from total
             .addCase(deleteAvg, (state, action) => {
+                // make the string a float as that is how it was added
+                let actionFloat = parseFloat(action.payload.id)
+    
                 // filter to get avg that weren't selected to be deleted
-                state.total = state.total.filter(pokemon => pokemon.id !== action.payload.id)
+                state.total = state.total.filter(avg => avg.id !== actionFloat)
+                console.log(state.total);
         })
 })
+// pokemon.id !== action.payload.id
 
 export default totalReducer;

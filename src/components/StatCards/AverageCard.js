@@ -16,9 +16,8 @@ const AverageCard = ({avg, mode}) => {
 
   // reference to global state to grab data
   const total = useSelector(state => state.total.total);
-  console.log(total);
-  console.log(mode);
 
+  // add to global function
   const addToGlobalState = (e) => {
     e.preventDefault();
     // grab id to dispatch
@@ -30,11 +29,12 @@ const AverageCard = ({avg, mode}) => {
     // check to see already in the party and if party is less than 6
     if (total.length < 3 ) {
     
-      // dispatch selected pokemon id to global variable
+      // dispatch selected avg id to global variable
       dispatch(
-        // use action addPokemon
+        // use action avg and gamemode
         addAvg({
           id: intAvg,
+          mode: mode,
         })
       ) 
     }
