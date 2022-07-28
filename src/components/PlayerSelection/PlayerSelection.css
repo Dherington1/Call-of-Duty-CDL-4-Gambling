@@ -1,4 +1,19 @@
-.PlayerImg {
-    padding: 65px;
-    margin-bottom: 15px;
+.statContainer {
+    margin-top: 20px;
+}
+
+.statTitleRow {
+
+}
+
+.statRow {
+    margin-bottom: 10px;
+}
+
+
+/* Hide maps and mode on mobile */
+@media (max-width: 600px) {
+    .element-to-hide {
+      display: none;
+    }
 }

@@ -6,8 +6,11 @@ import './PlayerSelection.css'
 import playerDb from '../../db/playerDb';
 import gameModes from '../../db/gameMode';
 
-// statcard component
-import StateCard from '../StatCards/StatCard';
+// stat components
+import KillCard from '../StatCards/KillCard';
+import OpponentCard from '../StatCards/OpponentCard';
+import AverageCard from '../StatCards/AverageCard';
+import ExtraStatCard from '../StatCards/ExtraStatCard'
 
 //  import MUI
 import InputLabel from '@mui/material/InputLabel';
@@ -19,6 +22,11 @@ import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
 
+// Bootstrap
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import { ViewSidebar } from '@mui/icons-material';
 
 
 const PlayerSelection = () => {
@@ -135,11 +143,12 @@ const PlayerSelection = () => {
     const handleStats = () => {
         statArr.map(stats => {
             // setting to playerKills
-            const playerKills = stats.kills;
+            const playerKills = stats.kills.reverse();
             playerKills.map(kill => {playerKillz.push(kill)});
 
+
             // setting to playerOp
-            const playerOpponent = stats.Opponent;
+            const playerOpponent = stats.Opponent.reverse();
             playerOpponent.map(op => {playerOp.push(op)});
 
             // setting to average String
@@ -211,7 +220,8 @@ const PlayerSelection = () => {
     const handleOpenMap = () => {
         setOpenMap(true);
     };
-
+    
+    const VS = "VS."
 
   return (
     <>
@@ -243,6 +253,7 @@ const PlayerSelection = () => {
                 </Grid>
             </Grid>
         </Box>
+                                        
 
         {/* If a player has been selected display their name, team and image of them*/}
         {(playerId !== "") ? (
@@ -252,26 +263,11 @@ const PlayerSelection = () => {
                     <Grid container spacing={2}>
                         <Grid item xs={12} md={12}>
                             <Item>
-                                <img className='PlayerImg' justify="center" src={`images/Players/${playerId}.png`} alt={playerId} />
+                                <img justify="center" src={`images/Players/${playerId}.png`} alt={playerId} />
                             </Item>
                         </Grid>
                     </Grid>
                 </Box>
-
-                {/* Player name and team display */}
-                <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-                    <Grid item xs={6}>
-                        <Item className='PlayerNameItem'>
-                            <h4>{playerId}</h4>
-                        </Item>
-                    </Grid>
-                    <Grid item xs={6}>
-                        <Item>
-                            {selectedPlayerTeam}
-                        </Item>
-                    </Grid>
-                </Grid>
-
 
                 {/* Drop downs for gamemode */}
                 <Box sx={{ flexGrow: 1 }}>
@@ -280,16 +276,16 @@ const PlayerSelection = () => {
                             <Item>         
                                 <div style={{justifyContent: "center"}}>
                                     <FormControl sx={{ m: 1, width: 300, mt: 3 }}>
-                                    <InputLabel id="demo-controlled-open-select-label">Select Gamemode</InputLabel>
+                                        <InputLabel id="demo-controlled-open-select-label">Select Gamemode</InputLabel>
                                         <Select
-                                        labelId="demo-controlled-open-select-label"
-                                        id="demo-controlled-open-select"
-                                        open={openMode}
-                                        value={modeName}
-                                        onChange={handleModeChange}
-                                        onClose={handleCloseMode}
-                                        onOpen={handleOpenMode}
-                                        label="Select Gamemode"
+                                            labelId="demo-controlled-open-select-label"
+                                            id="demo-controlled-open-select"
+                                            open={openMode}
+                                            value={modeName}
+                                            onChange={handleModeChange}
+                                            onClose={handleCloseMode}
+                                            onOpen={handleOpenMode}
+                                            label="Select Gamemode"
                                         >
                                             {gameModes.map(mode => (
                                                 <MenuItem value={mode.title} id={mode.title} onClick={handleGameModePick}>{mode.title}</MenuItem>
@@ -310,16 +306,16 @@ const PlayerSelection = () => {
                             <Item>         
                                 <div style={{justifyContent: "center"}}>
                                     <FormControl sx={{ m: 1, width: 300, mt: 3 }}>
-                                    <InputLabel id="demo-controlled-open-select-label">Select Map</InputLabel>
+                                        <InputLabel id="demo-controlled-open-select-label">Select Map</InputLabel>
                                         <Select
-                                        labelId="demo-controlled-open-select-label"
-                                        id="demo-controlled-open-select"
-                                        open={openMap}
-                                        value={mapName}
-                                        onChange={handleMapChange}
-                                        onClose={handleCloseMap}
-                                        onOpen={handleOpenMap}
-                                        label="Select Map"
+                                            labelId="demo-controlled-open-select-label"
+                                            id="demo-controlled-open-select"
+                                            open={openMap}
+                                            value={mapName}
+                                            onChange={handleMapChange}
+                                            onClose={handleCloseMap}
+                                            onOpen={handleOpenMap}
+                                            label="Select Map"
                                         >
                                             {modes.map(maps => (
                                                 <MenuItem value={maps} id={maps} onClick={MapsFromGameMode}>{maps}</MenuItem>
@@ -334,28 +330,75 @@ const PlayerSelection = () => {
 
 
                 {/* Player stats will go here */}
-                {/* if our state is not empty as we need it to be full with the compared information */}
-                {(playerStatsKills.length > 0) ? (
-                    
-                    playerStatsKills.map(stats => (
-                    <h4>{stats}</h4>
-                    ))
-                ) : (
-                    <div>kills length is zero</div>
-                )}
+                {/* Wrap all these in one big box in this component  */}
+              
                 {(playerStatsOpponent.length > 0) ? (
-                    
-                    playerStatsOpponent.map(stats => (
-                    <h4>{stats}</h4>
-                    ))
-                ) : (
-                    <div>Opponenet length is zero</div>
-                )}
-                {(playerStatsAvg.length !== "") ? (
-                    <h4>{playerStatsAvg}</h4>
-                ) : (
-                    <div>Average length is zero</div>
-                )}
+                    <Container className='statContainer'>
+                        <Row className='statTitleRow'>
+                            <Col xs={3} sm={2}>Player</Col>
+                            <Col xs={2} sm={2}>VS.</Col>
+                            <Col xs={3} sm={2}>Opponent</Col>
+                            <Col xs={4} sm={2}>Kills / Deaths</Col>
+                            <Col className='element-to-hide' xs={1} sm={2}>Mode</Col>
+                            <Col className='element-to-hide' xs={1} sm={2}>Map</Col>
+                        </Row>
+                        <Row className='statRow'>
+                            <Col xs={3} sm={3}>
+                                {playerStatsOpponent.map(stats => (
+                                    <ExtraStatCard extra={playerName} />
+                                ))}
+                            </Col>
+                            <Col xs={2} sm={3}>
+                                {playerStatsOpponent.map(stats => (
+                                    <ExtraStatCard extra={VS} />
+                                ))}
+                            </Col>
+                            <Col xs={3} sm={3}>
+                                {playerStatsOpponent.map(stats => (
+                                    <OpponentCard opp={stats} />
+                                ))}
+                            </Col>
+                            <Col xs={4} sm={3}>
+                                {playerStatsKills.map(stats => (
+                                    <KillCard kills={stats} />
+                                ))}
+                            </Col>
+                            
+                            <Col className='element-to-hide' xs={2} sm={3}>
+                                {playerStatsOpponent.map(stats => (
+                                    <ExtraStatCard extra={compareGamemode} />
+                                ))}
+                            </Col>
+                            <Col className='element-to-hide' xs={2} sm={3}>
+                                {playerStatsOpponent.map(stats => (
+                                    <ExtraStatCard  extra={compareMap} />
+                                ))}
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col xs={12}>
+                                <AverageCard avg={playerStatsAvg} />
+                            </Col>
+              
+                        </Row>
+                    </Container>
+                ): (
+                    <div>
+                        {/* empty */}
+                    </div>
+                )}                                 
+
+
+{/* 
+                {playerStatsKills.map(stats => (
+                    <KillCard kills={stats} />
+                ))}
+                
+                {playerStatsOpponent.map(stats => (
+                    <OpponentCard opp={stats} />
+                ))}
+
+                <AverageCard avg={playerStatsAvg} /> */}
 
 
             </div>

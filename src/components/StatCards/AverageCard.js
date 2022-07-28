@@ -1,9 +1,17 @@
 import React from 'react'
-import StatCard from './StatCard'
+import Button from '@mui/material/Button';
 
-const AverageCard = () => {
+// dispatch the average kills with the value of avg
+// make average integer before dispatch
+
+const AverageCard = ({avg}) => {
   return (
-    <div>AverageCard</div>
+    <div style={{textAlignVertical: "center",textAlign: "center",}}>
+      <h4>{`Average Kills ${avg}`}</h4>
+      <Button variant="outlined">Add Average</Button>
+    </div>
+
+
   )
 }
 

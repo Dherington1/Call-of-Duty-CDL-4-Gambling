@@ -1,17 +1,17 @@
 import React from 'react'
 
 // components
+import NavBar from '../components/navbar/NavBar';
 import PlayerSelection from '../components/PlayerSelection/PlayerSelection';
-
+// import Footer from '../components/footer/Footer';
 
 
 const Homepage = () => {
-
-  // use that prop in the mapping to get specific players stats
   return (
     <>
-      {/* Player selection */}
+      <NavBar />
       <PlayerSelection />
+      {/* <Footer /> */}
     </>
   );
 }

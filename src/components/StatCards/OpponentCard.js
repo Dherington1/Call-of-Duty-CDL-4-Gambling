@@ -1,8 +1,10 @@
 import React from 'react'
-import StatCard from './StatCard'
 
-export const OpponentCard = () => {
+
+const OpponentCard = ({opp}) => {
   return (
-    <div>OpponentCard</div>
+    <div  style={{textAlignVertical: "center",textAlign: "center",}}>{opp}</div>
   )
 }
+
+export default OpponentCard;

@@ -1,10 +1,10 @@
 import React from 'react'
-import StatCard from './StatCard'
 
 
-function KillCard() {
+
+function KillCard({kills}) {
   return (
-    <div>KillCard</div>
+    <div  style={{textAlignVertical: "center",textAlign: "center",}}>{kills}</div>
   )
 }
 
