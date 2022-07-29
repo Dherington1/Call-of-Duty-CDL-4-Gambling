@@ -29,12 +29,13 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 // bring in our global variable
-import {useDispatch} from 'react-redux';
 import {useSelector} from 'react-redux';
+// bring in our global variable
+import {useDispatch} from 'react-redux';
 
 // action to remove avg
-import {deleteAvg} from '../../Redux/Action/action';
-
+import {addAvg} from '../../Redux/Action/action';
+import {deleteAllAvg} from '../../Redux/Action/action';
 
 const PlayerSelection = () => {
     // state to keep track of who was picked
@@ -65,12 +66,23 @@ const PlayerSelection = () => {
         })
     }
 
+    // reference to global state to push an action to data 
+    const dispatch = useDispatch();  
+
     // resets maps and gamemode when player is changed
     useEffect(() => {
         setCompareGamemode("")
         setCompareMap("")
         setModeName("")
         setMapName("")
+
+        // delete all avg saved when player is switched
+        dispatch(
+            deleteAllAvg({
+              id: ''
+            })
+          ) 
+
     }, [playerId])
     
     // used to gather maps available for certain gamemodes
@@ -236,23 +248,7 @@ const PlayerSelection = () => {
     // Redux //
     // reference to global state to grab data
     const total = useSelector(state => state.total.total);
-    // reference to global state to push an action to data 
-    const dispatch = useDispatch();  
 
-    // remove avg from global state
-    const handleRemove = (e) => {
-        e.preventDefault();
-        // delete based off number from id
-        let selected = e.target.id;
-
-
-        dispatch(
-            // use action deleteAvg
-            deleteAvg({
-                id: selected
-            })
-        )
-    }
 
     // determining the total avg
     let avgTotal = 0;
@@ -260,7 +256,9 @@ const PlayerSelection = () => {
         avgTotal += total[i].id;
     }
 
+    let formatTotal = parseFloat(avgTotal).toFixed( 2 );
     
+   
 
   return (
     <>
@@ -372,22 +370,15 @@ const PlayerSelection = () => {
                 {/* Total of all the averages here */}
                 {(playerStatsOpponent.length > 0) ? (    
                     <div>
-                        <h4 style={{textAlignVertical: "center",textAlign: "center", padding: "15px"}}>Series Average</h4>
+                        {/* Title */}
+                        {(total.length > 0) ? (
+                            <h4 style={{textAlignVertical: "center",textAlign: "center", padding: "15px"}}>Series Average</h4>
+                        ) : (
+                            <div></div>
+                        )} 
 
                         {/* pull from global here */}
                         <Container>
-                            {/* {(total.length > 0) ? (
-                                <Row>
-                                    <Col>Hardpoint</Col>
-                                    <Col>Search and Destroy</Col>
-                                    <Col>Control</Col>
-                                    <Col>Total</Col>
-                                </Row>
-                            ) : (
-                                <div></div>
-                            )} */}
-
-
                             <Row>
                                 {total.map(nums => 
                                     <DisplayTotals totals={nums} />
@@ -395,9 +386,9 @@ const PlayerSelection = () => {
 
                                 {/* only show when all there maps were added */}
                                 {(total.length === 3) ? (
-                                    <Col>
-                                        <p>Total</p>
-                                        {avgTotal}
+                                    <Col style={{textAlign: "center"}}>
+                                        <p className='statTitleRow'>Total</p>
+                                        {formatTotal}
                                     </Col>
                                 ) : (
                                     <div></div>
@@ -419,10 +410,10 @@ const PlayerSelection = () => {
                             <fieldset className="teamFieldset">
                                 <Row className='statTitleRow'>
                                     <Col xs={3} sm={3} md={2}>Player</Col>
-                                    <Col xs={2} sm={3} md={2}>VS.</Col>
+                                    <Col xs={2} sm={2} md={1}>VS.</Col>
                                     <Col xs={3} sm={3} md={2}>Opponent</Col>
                                     <Col xs={4} sm={3} md={2}>Kills / Deaths</Col>
-                                    <Col className='element-to-hide' xs={1} sm={2} md={2}>Mode</Col>
+                                    <Col className='element-to-hide' xs={1} sm={3} md={3}>Gamemode</Col>
                                     <Col className='element-to-hide' xs={1} sm={2} md={2}>Map</Col>
                                 </Row>
                                 <Row className='statRow'>
@@ -431,7 +422,7 @@ const PlayerSelection = () => {
                                             <ExtraStatCard extra={playerName} />
                                         ))}
                                     </Col>
-                                    <Col xs={2} sm={3} md={2}>
+                                    <Col xs={2} sm={2} md={1}>
                                         {playerStatsOpponent.map(stats => (
                                             <ExtraStatCard extra={VS} />
                                         ))}
@@ -447,7 +438,7 @@ const PlayerSelection = () => {
                                         ))}
                                     </Col>
                                     
-                                    <Col className='element-to-hide' xs={2} sm={3} md={2}>
+                                    <Col className='element-to-hide' xs={2} sm={3} md={3}>
                                         {playerStatsOpponent.map(stats => (
                                             <ExtraStatCard extra={compareGamemode} />
                                         ))}

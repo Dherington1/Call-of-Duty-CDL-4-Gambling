@@ -38,9 +38,9 @@ const DisplayTotals = ({totals}) => {
   return (
     <>
       {totalArr.map(total => (
-        <Col sm={3} >
-         <p>{total.mode}</p>
-         <p id={total.id} onClick={handleRemove}>{total.id}</p> 
+        <Col  xs={3} sm={3} >
+         <p className='statTitleRow totalMode'>{total.mode}</p>
+         <p className='totalMode' id={total.id} onClick={handleRemove}>{total.id}</p> 
         </Col>
       ))}
     </>

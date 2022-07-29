@@ -1,4 +1,7 @@
 import React from 'react'
+import '../PlayerSelection/PlayerSelection.css'
+
+// MUI button
 import Button from '@mui/material/Button';
 
 // action to add avg to total

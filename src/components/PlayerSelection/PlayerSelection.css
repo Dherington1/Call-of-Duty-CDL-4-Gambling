@@ -10,6 +10,15 @@
     margin-bottom: 10px;
 }
 
+
+.totalMode {
+    text-align: center;
+}
+.totalMode:hover {
+    cursor: pointer;
+}
+
+
 .teamBuilder{
     margin-bottom: 40px;
     padding-bottom: 20px;
@@ -31,7 +40,6 @@
     padding: 20px 10px;
     border: none;
     max-height: 50%;
-    /* margin: 10%; */
 }
 .teamFieldset h3{
     margin: 0px;

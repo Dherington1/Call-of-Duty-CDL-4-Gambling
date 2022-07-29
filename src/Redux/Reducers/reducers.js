@@ -3,6 +3,7 @@ import { createReducer } from '@reduxjs/toolkit';
 //import from actions 
 import {addAvg} from '../Action/action';
 import {deleteAvg} from '../Action/action';
+import {deleteAllAvg} from '../Action/action';
 
 // initialState of globalState
 const initialState = {
@@ -28,8 +29,11 @@ const totalReducer = createReducer(initialState, (builder) => {
                 // filter to get avg that weren't selected to be deleted
                 state.total = state.total.filter(avg => avg.id !== actionFloat)
                 console.log(state.total);
-        })
+            })
+            .addCase(deleteAllAvg, (state, action) => {
+                // reducer to add the pokemon to the array
+                state.total = state.total.filter(avg => avg.id === action.payload.id)
+            })
 })
-// pokemon.id !== action.payload.id
 
 export default totalReducer;
