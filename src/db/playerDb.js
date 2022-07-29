@@ -587,33 +587,33 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["18 / 25", "25 / 25", "21 / 18", "19 / 22", "25 / 25", "24 / 26", "21 / 21", "28 / 26", "11 / 17", "22 / 17"],
+                            "Opponent": ["Optic", "Ravens", "Faze", "Ultra", "Legion", "Ultra", "Thieves", "Mutineers", "Ravens", "Subliners"],
+                            "Average": "21.40"
                         }
                     },
                     { 
                         "map": "Bocage",   
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["27 / 28", "31 / 31", "30 / 22", "41 / 29", "29 / 31", "27 / 25", "37 / 15", "34 / 35", "38 / 28" ,"31 / 27", "29 / 31", "26 / 19", "37 / 23", "32 / 28"],
+                            "Opponent": ["Surge", "Guerillas", "Thieves", "Subliners", "Ultra", "Mutineers", "Faze", "Breach", "Ultra", "Optic", "Surge", "Legion", "Subliners","Optic"],
+                            "Average": "32.07"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["20 / 27", "20 / 23", " 28 / 25", "17 / 29", "25 / 19", "13 / 17", "28 / 27", "30 / 24", "20 / 25", "39 / 19", "26 / 16", "34 / 22", "15 / 19", "24 / 24"],
+                            "Opponent": ["Optic", "Ravens", "Guerillas", "Thieves", "Legion", "Breach", "thieves", "Subliners", "Optic", "Thieves", "Optic", "Ravens", "Surge", "Legion"],
+                            "Average": "24.21"
                         }
                     },
                     {
                         "map": "Gavutu",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["16 / 15", "30 / 22", "32 / 18", "27 / 20", "19 / 17", "26 / 17", "27 / 23", "14 / 15", "20 / 19"],
+                            "Opponent": ["Surge", "Guerillas", "Thieves", "Ultra", "Optic", "Guerillas", "Thieves", "Mutineers", "Optic"],
+                            "Average": "23.44"
                         }
                     }
                 ]
@@ -624,33 +624,33 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["4 / 3", "9 / 8", "5 / 6", "10 / 8", "6 / 8", "3 / 8", "10 / 3", "6 / 6", "8 / 7", "9 / 5", "13 / 7", "6 / 4", "3 / 7"],
+                            "Opponent": ["Optic", "Surge", "Faze", "Ultra", "Legion", "Thieves", "Thieves", "Mutineers", "Ultra", "Surge", "Legion", "Subliners", "Optic"],
+                            "Average": "7.08"
                         }
                     },
                     { 
                         "map": "Bocage",   
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["8 / 3", "4 / 5", "12 / 9", "6 / 4", "4 / 7", "7 / 7", "4 / 4", "2 / 7", "4 / 8", "7 / 6", "5 / 6", "5 / 6"],
+                            "Opponent": ["Guerillas", " Legion", "Breach", "Thieves", "Subliners", "Guerillas", "Faze", "Thieves", "Optic", "Mutineers", "Legion", "Optic"],
+                            "Average": "5.67"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["6 / 7", "11 / 3" , "2 / 6", "7 / 6","5 / 5", "7 / 4", "6 / 7"],
+                            "Opponent": ["Optic", "Surge", "Ravens", "Guerillas", "Guerillas", "Thieves", "Ultra"],
+                            "Average": "6.29"
                         }
                     },
                     {
                         "map": "Desert Seige",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["6 / 4", "2 / 6", "2 / 6", "9 / 5", "8 / 8", "5 / 6", "13 / 7"],
+                            "Opponent": ["Optic", "Ultra", "Thieves", "Breach", "Ravens", "Surge", "Subliners"],
+                            "Average": "6.43"
                         }
                     }
                 ]
@@ -663,25 +663,370 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["28 / 22", "22 / 28", "28 / 20", "22 / 22", "17 / 18", "15 / 20", "23 / 21", "34 / 27", "31 / 18", "25 / 20", "35 / 23", "18 / 23", "12 / 22", "24 / 29", "32 / 21", "36 / 26", "22 / 21"],
+                            "Opponent": ["Optic", "Surge", "Raven", "Faze", "Ultra", "Legion", "Breach", "Optic", "Guerillas", "Ultra", "Mutineers", "Breach", "Optic", "Mutineers", "Ravens", "Surge", "Optic"],
+                            "Average": "24.94"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["46 / 33", "24 / 23", "29 / 21", "26 / 26", "17 / 16"],
+                            "Opponent": ["Thieves", "Faze", "Thieves", "Ultra", "Subliners"],
+                            "Average": "28.40"
                         }
                     },
                     {
                         "map": "Gavutu",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
+                            "kills": ["30 / 30", "29 / 20", "35 / 23", "18 / 16", " 34 / 31", "22 / 23"],
+                            "Opponent": ["Guerillas","Guerillas", "Thieves", "Thieves", "Subliners", "Legion"],
+                            "Average": "28.00"
+                        }
+                    }
+                ]
+            }
+        ]
+
+    },
+    {
+        "name": "Bance",
+        "team": "Ultra",
+        "gameModes": 
+        [
+            {
+                
+                "mode": "Hardpoint",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": ["17 / 26", "28 / 36", "25 / 20", "22 / 31", "26 / 34", "26 / 32", "27 / 24", "24 / 31", "26 / 26", "21 / 28", "25 / 25", "29 / 29", "26 / 31", "28 / 29", "24 / 28", "28 / 27", "37 / 30", "24 / 32", "19 / 33"],
+                            "Opponent": ["Surge", "Thieves", "Rokkr", "Faze", "Legion", "Guerillas", "Surge", "Rokkr", "Ravens", "Faze", "Legion", "Thieves", "Faze", "Guerillas", "Ravens", "Optic", "Ravens", "Thieves", "Optic"],
+                            "Average": "25.37"
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": ["28 / 42", "31 / 34", "33 / 29", "30 / 20", "30 / 35", "33 / 45", "36 / 38", "34 / 35", "30 / 28", "30 / 34", "23 / 31", "27 / 34", "26 / 34", "34 / 24", "37 / 32", "36 / 34"],
+                            "Opponent": ["Guerillas", "Mutineers", "Optic", "Thieves", "Faze", "Breach", "Legion", "Rokkr", "Legion", "Faze", "Legion", "Rokkr", "Mutineers", "Faze", "Optic", "Optic"],
+                            "Average": "31.13"
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": ["26 / 21", "29 / 31", "25 / 28", "27 / 26", "14 / 27", "23 / 27", "33 / 31", "30 / 30", "25 / 29", "23 / 26", "32 / 24", "29 / 29"],
+                            "Opponent": ["Surge", "Thieves", "Ravens", "Breach", "Subliners", "Guerillas", "Subliners", "Ravens", "Thieves", "Ravens", "Breach", "Ravens"],
+                            "Average": "26.33"
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": ["16 / 22", "16 / 27", "23 / 30", "24 / 30", "15 / 20", "15 / 20", "17 / 24", " 26 / 22", "15 / 31", "15 / 25", "15 / 21", "22 / 25"],
+                            "Opponent": ["Thieves", "Ravens", "Breach", "Rokkr", "Breach", "Faze", "Subliners", "Surge", "Subliners", "Guerillas", "Faze", "Breach"],
+                            "Average": "18.25"
+                        }
+                    }
+                ]
+            },
+            {
+                "mode": "Search and Destroy",
+                "maps": [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": ["8 / 6", "6 / 7", "4 / 7", "8 / 8", "8 / 6", "5 / 5", "9 / 8", "4 / 8", "3 / 6" ,"3 / 7", "3 / 6", "6 / 7", "5 / 6", "3 / 6", "4 / 6"],
+                            "Opponent": ["Guerillas", "Mutineers", "Optic", "Thieves", "Thieves", "Breach", "Rokkr", "Guerillas", "Surge", "Legion", "Legion", "Rokkr", "Faze", "Faze", "Breach"],
+                            "Average": "6.75"
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": ["4 / 6", "7 / 6", "3 / 7", "4 / 6", "11 / 2", "8 / 7"],
+                            "Opponent": ["Surge", "Faze", "Legion", "Optic", "Ravens", "Optic"],
+                            "Average": "6.17"
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": ["7 / 7", "3 / 9", "9 / 7", "5 / 8", "6 / 7", "7 / 9", "6 / 7", "3 / 7" ,"6 / 3", "7 / 4" , "8 / 7", "8 / 6", "11 / 5", "7 / 7", "1 / 6", "15 / 5"],
+                            "Opponent": ["Surge", "Ravens", "Breach", "Breach", "Faze", "Legion", "Rokkr", "Subliners", "Ravens", "Mutineers", "Thieves", "Faze",  "Guerillas", "Optic", "Thieves", "Optic"],
+                            "Average": "6.81"
+                        }
+                    },
+                    {
+                        "map": "Desert Seige",
+                        "stats": {
+                            "kills": ["6 / 5", "6 / 6", "6 / 5", "10 / 4", "4 / 7", "7 / 6", "6 / 3", "9 / 8", "9 / 9", "4 / 4", "6 / 8"],
+                            "Opponent": ["Thieves", "Faze", "Breach", "Subliners", "Surge", "Subliners", "Faze", "Guerillas", "Ravens", "Breach", "Ravens"],
+                            "Average": "6.08"
+                        }
+                    }
+                ]
+            },
+            {
+        
+                "mode": "Control",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": ["37 / 31", "31 / 35", "19 / 26", "42 / 33" ,"36 / 36", "25 / 28", "22 / 26", "20 / 21", "28 / 36", "31 / 31", "18 / 27", "34 / 26", "32 / 37", "15 / 27", "22 / 23", "22 / 29", "29 / 19", "17 / 21"],
+                            "Opponent": ["Guerillas", "Mutineers", "Optic", "Thieves", "Thieves", "Faze", "Rokkr", "Legion", "Subliners", "Guerillas", "Rokkr", "Subliners", "Ravens", "Faze", "Legion", "Faze", "Mutineers", "Ravens"],
+                            "Average": "26.67"
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": ["24 / 21", "22 / 14", "30 / 33", "19 / 24", "25 / 23", "19 / 30", "15 / 21", "19 / 25"],
+                            "Opponent": ["Surge", "Legion", "Rokkr", "Thieves", "Guerillas", "Ravens", "Thieves", "Optic"],
+                            "Average": "21.63"
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": ["24 / 26", "22 / 25", "26 / 22", "26 / 23", "30 / 31", "23 / 33", "32 / 27", "26 / 18"],
+                            "Opponent": ["Surge", "Ravens", "Breach", "Breach", "Faze", "Faze", "Breach", "Optic"],
+                            "Average": "26.13"
+                        }
+                    }
+                ]
+            }
+        ]
+
+    },
+    {
+        "name": "Cammy",
+        "team": "Ultra",
+        "gameModes": 
+        [
+            {
+                
+                "mode": "Hardpoint",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": ["23 / 26", "29 / 36", "22 / 23", "33 / 24", "42 / 29", "20 / 25", "31 / 23", "35 / 28", "23 / 22", "20 / 23", "29 / 27", "29 / 20", "25 / 22", "24 / 23", "23 / 22", "20 / 21", "32 / 30", "29 / 25", "34 / 26"],
+                            "Opponent": ["Surge", "Thieves", "Rokkr", "Faze", "Legion", "Guerillas", "Surge", "Rokkr", "Ravens", "Faze", "Legion", "Thieves", "Faze", "Guerillas", "Ravens", "Optic", "Ravens", "Thieves", "Optic"],
+                            "Average": "27.53"
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": ["41 / 36", "26 / 37", "32 / 19", "31 / 29", "42 / 36", "25 / 38", "21 / 29", "41 / 32", "30 / 32", "23 / 31", "33 / 28", "37 / 27", "20 / 27", "30 / 32", "38 / 33"],
+                            "Opponent": ["Guerillas", "Optic", "Thieves", "Faze", "Breach", "Legion", "Rokkr", "Legion", "Faze", "Legion", "Rokkr", "Mutineers", "Faze", "Optic", "Optic"],
+                            "Average": "31.33"
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": ["21 / 22", "21 / 26" ,"26 / 22", "21 / 27", "22 / 25", "18 / 28", "26 / 27", "27 / 23", "23 / 22", "23 / 27", "32 / 23", "30 / 25"],
+                            "Opponent": ["Surge", "Thieves", "Ravens", "Breach", "Subliners", "Guerillas", "Subliners", "Ravens", "Thieves", "Ravens", "Breach", "Ravens"],
+                            "Average": "24.17"
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": ["19 / 18", "27 / 21", "27 / 22", "20 / 30", "11 / 23", "15 / 19", "25 / 26", "23 / 22", "35 / 22", "14 / 21", "17 / 21", "15 / 29"],
+                            "Opponent": ["Thieves", "Ravens", "Breach", "Rokkr", "Breach", "Faze", "Subliners", "Surge", "Subliners", "Guerillas", "Faze", "Breach"],
+                            "Average": "20.67"
+                        }
+                    }
+                ]
+            },
+            {
+                "mode": "Search and Destroy",
+                "maps": [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": ["5 / 7", "5 / 7", "6 / 8", "4 / 5", "8 / 8", "6 / 9", "10 / 9", "8 / 4", "10 / 3", "9 / 4", "9 / 5", " 4 / 7", "9 / 6", "6 / 6"],
+                            "Opponent": ["Guerillas",  "Optic", "Thieves", "Thieves", "Breach", "Rokkr", "Guerillas", "Surge", "Legion", "Legion", "Rokkr", "Faze", "Faze", "Breach"],
+                            "Average": "8.73"
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": ["0 / 6", "10 / 5", "5 / 7", "4 / 6", "8 / 4", "7 / 8"],
+                            "Opponent": ["Surge", "Faze", "Legion", "Optic", "Ravens", "Optic"],
+                            "Average": "5.67"
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": ["6 / 9", "8 / 8", "5 / 9", "3 / 7", "2 / 8", "8 / 7", "5 / 6", "4 / 5", "6 / 4", "7 / 7", "10 / 7", "4 / 7", "3 / 6", "7 / 7", " 0 / 6", "8 / 6"],
+                            "Opponent": ["Surge", "Ravens", "Breach", "Breach", "Faze", "Legion", "Rokkr", "Subliners", "Ravens", "Mutineers", "Thieves", "Faze",  "Guerillas", "Optic", "Thieves", "Optic"],
                             "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Desert Seige",
+                        "stats": {
+                            "kills": ["4 / 5", "5 / 6", "6 / 7", "2 / 8", "8 / 6", "8 / 7", "6 / 6", "8 / 1", "6 / 7", "7 / 8", "2 / 5", "3 / 8"],
+                            "Opponent": ["Thieves", "Faze", "Breach", "Subliners", "Surge", "Subliners", "Faze", "Guerillas", "Ravens", "Breach", "Ravens"],
+                            "Average": "5.42"
+                        }
+                    }
+                ]
+            },
+            {
+        
+                "mode": "Control",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": ["36 / 31", "27 / 29", "31 / 25", "36 / 27", "22 / 26", "19 / 14", "20 / 18", "39 / 27", "34 / 33", "19 / 30", "30 / 33", "31 / 34", "26 / 26", "27 / 19", "23 / 28", "32 / 26", "19 / 19"],
+                            "Opponent": ["Guerillas", "Optic", "Thieves", "Thieves", "Faze", "Rokkr", "Legion", "Subliners", "Guerillas", "Rokkr", "Subliners", "Ravens", "Faze", "Legion", "Faze", "Mutineers", "Ravens"],
+                            "Average": "27.71"
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": ["16 / 18", "14 / 14", "35 / 30", "25 / 28", "27 / 23", "36 / 22", "15 / 19", "24 / 17"],
+                            "Opponent": ["Surge", "Legion", "Rokkr", "Thieves", "Guerillas", "Ravens", "Thieves", "Optic"],
+                            "Average": "24.00"
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": ["28 / 27", "22 / 22", "26 / 23", "17 / 25", "25 / 30", "29 / 26", "19 / 27", "30 / 20"],
+                            "Opponent": ["Surge", "Ravens", "Breach", "Breach", "Faze", "Faze", "Breach", "Optic"],
+                            "Average": "24.50"
+                        }
+                    }
+                ]
+            }
+        ]
+
+    },
+    {
+        "name": "Cellium",
+        "team": "Faze",
+        "gameModes": 
+        [
+            {
+                
+                "mode": "Hardpoint",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": ["18 / 19", "22 / 22", "20 / 15", "23 / 26", "29 / 23", "22 / 19", "29 / 22", "31 / 21", "22 / 27", "33 / 20", "26 / 28", "24 / 22", "24 / 17", "28 / 18", "29 / 23", "29 / 22", "26 / 28", "22 / 18", "29 / 26" ,"33 / 20", "20 / 20", "28 / 23", "22 / 20", "22 / 14", "20 / 19"],
+                            "Opponent": ["Legion", "Thieves", "Rokkr", "Subliners", "Thieves", "Ravens", "Optic", "Ravens", "Ultra", "Surge", "Guerillas", "Subliners", "Guerillas", "Ultra", "Surge", "Ultra", "Surge", "Thieves", "Ravens", "Surge", "Thieves", "Legion", "Mutineers", "Optic", "Thieves"],
+                            "Average": "25.24"
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": ["34 / 21", "30 / 23", "33 / 22", "35 / 25", "34 / 25", "31 / 21", "33 / 26", "34 / 32", "39 / 26", "18 / 28", "16 / 27", "34 / 28", "34 / 24", "28 / 16", "27 / 33", "28 / 28", "41 / 21", "36 / 28", "28 / 22"],
+                            "Opponent": ["Thieves", "Breach", "Breach", "Optic", "Ultra", "Surge", "Mutineers", "Surge", "Breach", "Rokkr", "Guerillas", "Ultra", "Surge", "Ultra", "Surge", "Guerillas", "Legion", "Guerillas", "Optic"],
+                            "Average": "31.21"
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": ["25 / 23", "21 / 19", "33 / 25", "32 / 20", "28 / 17", "28 / 26", "24 / 19", "22 / 24"],
+                            "Opponent": ["Subliners", "Surge", "Subliners", "Optic", "Surge", "Guerillas", "Thieves", "Thieves"],
+                            "Average": "26.63"
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": ["17 / 21", "17 / 12", "14 / 19", "35 / 12", "26 / 17", "17 / 15", "18 / 22", "21 / 16", "22 / 11", "20 / 17", "23 / 15", "24 / 12", "21 / 10", "22 / 21", "23 / 13", "22 / 19", "17 / 11", "24 / 18", "26 / 12"],
+                            "Opponent": ["Legion", "Breach", "Optic", "Thieves", "Ravens", "Optic", "Ravens", "Ultra", "Mutineers", "Optic", "Subliners", "Breach", "Guerillas", "Optic", "Thieves", "Thieves", "Ultra", "Ravens", "Mutineers"],
+                            "Average": "21.53"
+                        }
+                    }
+                ]
+            },
+            {
+                "mode": "Search and Destroy",
+                "maps": [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": ["8 / 4", "10 / 1", "4 / 7", "5 / 6", "8 / 6", "7 / 2","8 / 6", "10 / 7", "8 / 8", "4 / 6", "4 / 3", "7 / 5", "4 / 5", "3 / 8", "7 / 9"],
+                            "Opponent": ["Rokkr", "Subliners", "Breach", "Optic", "Thieves", "Optic", "Surge", "Optic", "Subliners", "Surge", "Ultra", "Surge", "Ultra", "Thieves", "Legion"],
+                            "Average": "6.47"
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": ["4 / 3", "6 / 7", "10 / 6", "6 / 6", "6 / 8", "3 / 6", "6 / 2", "6 / 10", "5 / 1", "8 / 8", "3 / 6"],
+                            "Opponent": ["Ravens", "Ultra", "Guerillas", "Subliners", "Optic", "Rokkr", "Thieves", "Surge", "Thieves", "Ravens", "Optic"],
+                            "Average": "5.73"
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": ["4 / 2", "6 / 5", "3 / 6", "4 / 5", "7 / 6", "4 / 6", "7 / 3", "7 / 6", "8 / 7", "6 / 7", "5 / 10", "9 / 6", "5 / 1", "6 / 7", "10 / 2", "12 / 0", "6 / 5", "4 / 6", "10 / 10"],
+                            "Opponent": ["Legion", "Breach", "Optic", "Thieves", "Optic", "Surge", "Ultra", "Mutineers", "Surge", "Guerillas", "Surge", "Ultra", "Thieves", "Guerillas", "Surge", "Legion", "Guerillas", "Mutineers", "Thieves"],
+                            "Average": "6.47"
+                        }
+                    },
+                    {
+                        "map": "Desert Seige",
+                        "stats": {
+                            "kills": ["13 / 4", "10 / 3", "5 / 1", "11 / 5", "6 / 6", "5 / 6", "1 / 6", "9 / 4", "4 / 2", "2 / 7", "6 / 4"],
+                            "Opponent": ["Legion", "Thieves", "Ultra", "Ravens", "Optic", "Breach",  "Guerillas", "Breach",  "Guerillas", "Ultra", "Surge"],
+                            "Average": "6.55"
+                        }
+                    }
+                ]
+            },
+            {
+        
+                "mode": "Control",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": ["20 / 14", "23 / 14", "22 / 21", "16 / 26", "13 / 17", "18 / 16", "18 / 16", "13 / 23" ,"22 / 17", "26 / 25", "29 / 29", "27 / 21", "26 / 25", "26 / 17", "15 / 16", "38 / 25", "15 / 21", "31 / 25", "21 / 14", "20 / 12", "26 / 16", "33 / 23", "14 / 17"],
+                            "Opponent": ["Thieves", "Rokkr", "Breach", "Optic", "Thieves", "Ultra", "Ravens", "Optic", "Mutineers", "Breach", "Guerillas", "Ultra", "Surge", "Ultra", "Surge", "Thieves", "Guerillas", "Thieves", "Legion", "Guerillas", "Mutineers", "Optic", "Thieves"],
+                            "Average": "22.74"
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": ["25 / 22", "11 / 19", "21 / 22", "37 / 28", "27 / 12", "29 / 28"],
+                            "Opponent": ["Breach", "Optic", "Rokkr", "Surge", "Ravens", "Surge"],
+                            "Average": "25.00"
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": ["15 / 15", "30 / 19", "28 / 26", "21 / 15", "26 / 24", "14 / 18", "30 / 25", "13 / 18", " 33 / 24", "26 / 16", "27 / 21", "24 / 14", "27 / 15", "14 / 13", "24 / 22"],
+                            "Opponent": ["Legion", "Breach", "Subliners", "Optic", "Surge", "Ravens", "Ultra", "Optic", "Subliners", "Surge", "Guerillas", "Subliners", "Guerillas", "Thieves", "Ultra"],
+                            "Average": "23.47"
                         }
                     }
                 ]
@@ -805,8 +1150,8 @@ const playerDb = [
 
     },
     {
-        "name": "",
-        "team": "",
+        "name": "CrimSix",
+        "team": "Subliners",
         "gameModes": 
         [
             {
@@ -817,9 +1162,9 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["25 / 28", "23 / 29", "25 / 31", "19 / 29", "22 / 29", "30 / 30", "29 / 29", "20 / 26", "29 / 26", "19 / 29", "24 / 34", "25 / 15", "30 / 20", "19 / 21", "29 / 23", "30 / 25", "21 / 23"],
+                            "Opponent": ["Surge", "Guerillas", "Breach", "Faze", "Ravens" ,"Thieves", "Faze", "Breach", "Optic", "Ravens ", "Mutineers", "Guerillas", "Thieves", "Rokkr", "Mutineers", "Thieves", "Thieves"],
+                            "Average": "24.65"
                         }
                     },
                     { 
