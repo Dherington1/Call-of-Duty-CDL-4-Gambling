@@ -1,0 +1,15 @@
+.teamImg {
+    max-width: 60px;
+    max-height: 40px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+
+}
+
+.kills {
+    text-align: center;
+}
+
+.extra {
+    text-align: center;
+}

@@ -1,10 +1,12 @@
 import React from 'react'
-
+import './statCards.css'
 
 
 function KillCard({kills}) {
   return (
-    <div>{kills}</div>
+    <div>
+      <p className='kills'>{kills}</p>
+    </div>
   )
 }
 

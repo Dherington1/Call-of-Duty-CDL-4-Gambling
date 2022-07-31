@@ -12,6 +12,7 @@ import OpponentCard from '../StatCards/OpponentCard';
 import AverageCard from '../StatCards/AverageCard';
 import ExtraStatCard from '../StatCards/ExtraStatCard'
 import DisplayTotals from '../displayTotals/DisplayTotals'
+import VsCard from '../StatCards/VsCard';
 
 //  import MUI
 import InputLabel from '@mui/material/InputLabel';
@@ -22,6 +23,11 @@ import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Typography from '@mui/material/Typography';
+
 
 // Bootstrap
 import Container from 'react-bootstrap/Container';
@@ -34,7 +40,6 @@ import {useSelector} from 'react-redux';
 import {useDispatch} from 'react-redux';
 
 // action to remove avg
-import {addAvg} from '../../Redux/Action/action';
 import {deleteAllAvg} from '../../Redux/Action/action';
 
 const PlayerSelection = () => {
@@ -59,11 +64,7 @@ const PlayerSelection = () => {
     const handlePlayerPicked = (e) => {
         // get id from DOM
         setId(e.target.id);
-        
-        // Set the players team to a state
-        playerDb.map(player => {
-            setPlayerTeam(player.team);
-        })
+        setPlayerTeam(e.target.className);
     }
 
     // reference to global state to push an action to data 
@@ -255,38 +256,45 @@ const PlayerSelection = () => {
     for(let i=0; i<total.length; i++) {
         avgTotal += total[i].id;
     }
-
     let formatTotal = parseFloat(avgTotal).toFixed( 2 );
     
-   
 
   return (
     <>
         {/* centered Player Selection drop down */}
-        <Box sx={{ flexGrow: 1 }}>
+        <Box sx={{ flexGrow: 1 , justifyContent: 'center'}}>
             <Grid container spacing={2}>
-                <Grid item xs={12} md={12}>
-                    <Item>         
-                        <div style={{justifyContent: "center"}}>
+                <Grid 
+                    item 
+                    xs={12} 
+                    md={12} 
+                    container
+                    spacing={0}
+                    direction="column"
+                    alignItems="center"
+                    justifyContent="center"
+                >
+                    {/* <Item disableUnderline>          */}
+                        {/* <div> */}
                             <FormControl sx={{ m: 1, width: 300, mt: 3 }}>
                             <InputLabel id="demo-controlled-open-select-label">Select Player</InputLabel>
                                 <Select
-                                labelId="demo-controlled-open-select-label"
-                                id="demo-controlled-open-select"
-                                open={open}
-                                value={playerName}
-                                onChange={handlePlayerChange}
-                                onClose={handleClosePlayer}
-                                onOpen={handleOpenPlayer}
-                                label="Select Player"
+                                    labelId="demo-controlled-open-select-label"
+                                    id="demo-controlled-open-select"
+                                    open={open}
+                                    value={playerName}
+                                    onChange={handlePlayerChange}
+                                    onClose={handleClosePlayer}
+                                    onOpen={handleOpenPlayer}
+                                    label="Select Player"
                                 >
                                     {playerDb.map(player => (
-                                        <MenuItem value={player.name} id={player.name} onClick={handlePlayerPicked}>{player.name}</MenuItem>
+                                        <MenuItem  class={player.team} value={player.name} id={player.name} onClick={handlePlayerPicked}>{player.name}</MenuItem>
                                     ))}
                                 </Select>
                             </FormControl>
-                        </div>
-                    </Item>
+                        {/* </div> */}
+                    {/* </Item> */}
                 </Grid>
             </Grid>
         </Box>
@@ -295,22 +303,49 @@ const PlayerSelection = () => {
         {/* If a player has been selected display their name, team and image of them*/}
         {(playerId !== "") ? (
             <div >
+
                 {/* Player image display */}
-                <Box sx={{ flexGrow: 1 }}>
-                    <Grid container spacing={2}>
-                        <Grid item xs={12} md={12}>
-                            <Item>
-                                <img justify="center" src={`images/Players/${playerId}.png`} alt={playerId} />
-                            </Item>
-                        </Grid>
-                    </Grid>
-                </Box>
+                <Card sx={{ display: 'flex' , justifyContent: 'center', mx: '3rem', mt: '35px', mb: '35px', boxShadow: 4}}>
+                    {/* Player img */}
+                    <CardMedia
+                        component="img"
+                        sx={{ width: 200 }}
+                        image={`images/Players/${playerId}.png`}
+                        alt={playerId}
+                    />
+                    <Box sx={{ display: 'flex', flexDirection: 'column',  }}>
+                        <CardContent sx={{ flex: '1 0 auto' }}>
+                            <Typography component="div" variant="h5">
+                                {playerId}
+                            </Typography>
+                            <Typography variant="subtitle1" color="text.secondary" component="div">
+                                {selectedPlayerTeam}
+                            </Typography>
+                            {/* team logo */}
+                            <CardMedia
+                                component="img"
+                                sx={{ width: 60, mt: '25px '}}
+                                image={`images/Teams/${selectedPlayerTeam}-logo.png`}
+                                alt={selectedPlayerTeam}
+                            />
+                        </CardContent>
+                    </Box>
+                </Card>
+  
 
 
                 {/* Drop downs for gamemode */}
                 <Box sx={{ flexGrow: 1 }}>
                     <Grid container spacing={2}>
-                        <Grid item xs={12} md={12}>
+                        <Grid 
+                            item 
+                            xs={12} 
+                            md={12} 
+                            spacing={0}
+                            direction="column"
+                            alignItems="center"
+                            justifyContent="center"
+                        >
                             <Item>         
                                 <div style={{justifyContent: "center"}}>
                                     <FormControl sx={{ m: 1, width: 300, mt: 3 }}>
@@ -340,7 +375,15 @@ const PlayerSelection = () => {
                 {/* Drop downs for maps */}
                 <Box sx={{ flexGrow: 1 }}>
                     <Grid container spacing={2}>
-                        <Grid item xs={12} md={12}>
+                        <Grid 
+                            item 
+                            xs={12} 
+                            md={12} 
+                            spacing={0}
+                            direction="column"
+                            alignItems="center"
+                            justifyContent="center"
+                        >
                             <Item>         
                                 <div style={{justifyContent: "center"}}>
                                     <FormControl sx={{ m: 1, width: 300, mt: 3 }}>
@@ -409,40 +452,45 @@ const PlayerSelection = () => {
                         <form className="teamForm">
                             <fieldset className="teamFieldset">
                                 <Row className='statTitleRow'>
-                                    <Col xs={3} sm={3} md={2}>Player</Col>
-                                    <Col xs={2} sm={2} md={1}>VS.</Col>
-                                    <Col xs={3} sm={3} md={2}>Opponent</Col>
-                                    <Col xs={4} sm={3} md={2}>Kills / Deaths</Col>
-                                    <Col className='element-to-hide' xs={1} sm={3} md={3}>Gamemode</Col>
-                                    <Col className='element-to-hide' xs={1} sm={2} md={2}>Map</Col>
+                                    <Col className='statTitles' xs={3} sm={3} md={2}>Player</Col>
+                                    <Col  xs={4} sm={5} md={3}>VS.</Col>
+                                    <Col className='statTitles' xs={5} sm={4} md={2}>Kills / Deaths</Col>
+                                    <Col className='element-to-hide statTitles' xs={1} sm={3} md={3}>Gamemode</Col>
+                                    <Col className='element-to-hide statTitles' xs={1} sm={2} md={2}>Map</Col>
                                 </Row>
+
                                 <Row className='statRow'>
+                                    {/* Player name */}
                                     <Col xs={3} sm={3} md={2}>
                                         {playerStatsOpponent.map(stats => (
                                             <ExtraStatCard extra={playerName} />
                                         ))}
                                     </Col>
+                                    {/* VS words */}
                                     <Col xs={2} sm={2} md={1}>
                                         {playerStatsOpponent.map(stats => (
-                                            <ExtraStatCard extra={VS} />
+                                            <VsCard extra={VS} />
                                         ))}
                                     </Col>
-                                    <Col xs={3} sm={3} md={2}>
+                                    {/* Team imgs */}
+                                    <Col xs={2} sm={2} md={2}>
                                         {playerStatsOpponent.map(stats => (
                                             <OpponentCard opp={stats} />
                                         ))}
                                     </Col>
-                                    <Col xs={4} sm={3} md={2}>
+                                    {/* Kills and Deaths */}
+                                    <Col xs={4} sm={5} md={2}>
                                         {playerStatsKills.map(stats => (
                                             <KillCard kills={stats} />
                                         ))}
                                     </Col>
-                                    
+                                    {/* Gamemode */}
                                     <Col className='element-to-hide' xs={2} sm={3} md={3}>
                                         {playerStatsOpponent.map(stats => (
                                             <ExtraStatCard extra={compareGamemode} />
                                         ))}
                                     </Col>
+                                    {/* Map */}
                                     <Col className='element-to-hide' xs={2} sm={3} md={2}>
                                         {playerStatsOpponent.map(stats => (
                                             <ExtraStatCard  extra={compareMap} />

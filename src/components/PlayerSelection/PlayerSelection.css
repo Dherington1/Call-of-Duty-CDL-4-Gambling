@@ -1,16 +1,49 @@
+body{
+    font-size: "Industry Medium";
+}
+
+
+/* img of player styling */
+/* .imgBackground {
+    max-width: 35%;
+    margin: 15px auto;
+    max-height: 87%;
+    background-color: red;
+} */
+.imgBackground img {
+    /* margin-right: 40%; */
+    max-width: 256px;
+    max-height: 256px;
+}
+
+
+
+li{
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+
+/* Stat table */
 .statContainer {
     margin-top: 20px;
 }
-
 .statTitleRow {
     font-weight: bold;
 }
-
 .statRow {
     margin-bottom: 10px;
 }
+.statTitles {
+    text-align: center;
+    padding-bottom: 10px;
+}
 
 
+
+/* totals above stats table */
 .totalMode {
     text-align: center;
 }
@@ -19,6 +52,8 @@
 }
 
 
+
+/* Stats table */
 .teamBuilder{
     margin-bottom: 40px;
     padding-bottom: 20px;
@@ -29,7 +64,7 @@
     font-size: large;
 }
 .teamForm {
-    max-width: 100%;
+    max-width: 90%;
     margin: 10px auto;
     border-radius: 5px;
     overflow: hidden;
@@ -46,6 +81,9 @@
     font-size: 24px;
 }
 
+
+
+
 /* Hide maps and mode on mobile */
 @media (max-width: 767px) {
     .element-to-hide {
@@ -53,4 +91,89 @@
     }
 }
 
+/* @media (max-width: 1311px) {
+    .imgBackground {
+        max-width: 55%;
+        margin: 15px auto;
+        max-height: 86%;
+        background-color: red;
+    }
+    .imgBackground img {
+        margin-right: 40%;
+        max-width: 55%;
+        max-height: 100%;
+    }
+}
 
+
+@media (max-width: 1040px) {
+    .imgBackground {
+        max-width: 55%;
+        margin: 15px auto;
+        max-height: 87%;
+        background-color: red;
+    }
+    .imgBackground img {
+        margin-right: 40%;
+        max-width: 55%;
+        max-height: 100%;
+    }
+}
+
+
+@media (max-width: 834px) {
+    .imgBackground {
+        max-width: 55%;
+        margin: 15px auto;
+        max-height: 86%;
+        background-color: red;
+    }
+    .imgBackground img {
+        margin-right: 40%;
+        max-width: 55%;
+        max-height: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .imgBackground {
+        max-width: 85%;
+        margin: 15px auto;
+        max-height: 86%;
+        background-color: red;
+    }
+    .imgBackground img {
+        margin-right: 40%;
+        max-width: 55%;
+        max-height: 100%;
+    }
+}
+
+@media (max-width: 428px) {
+    .imgBackground {
+        max-width: 85%;
+        margin: 15px auto;
+        max-height: 84%;
+        background-color: red;
+    }
+    .imgBackground img {
+        margin-right: 40%;
+        max-width: 55%;
+        max-height: 100%;
+    }
+}
+
+
+@media (max-width: 390px) {
+    .imgBackground {
+        max-width: 85%;
+        margin: 15px auto;
+        max-height: 83%;
+        background-color: red;
+    }
+    .imgBackground img {
+        margin-right: 40%;
+        max-width: 55%;
+        max-height: 100%;
+    }
+} */
