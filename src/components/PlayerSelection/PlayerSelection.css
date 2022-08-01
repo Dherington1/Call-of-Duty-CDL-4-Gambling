@@ -27,7 +27,9 @@ li:hover{
 }
 
 
-
+.avgKills {
+    margin-bottom: 15px;
+}
 
 /* Stat table */
 .statContainer {
@@ -94,95 +96,3 @@ li:hover{
     }
 }
 
-/* @media (max-width: 991px) {
-    .SND-hide {
-      display: none;
-    }
-} */
-
-/* @media (max-width: 1311px) {
-    .imgBackground {
-        max-width: 55%;
-        margin: 15px auto;
-        max-height: 86%;
-        background-color: red;
-    }
-    .imgBackground img {
-        margin-right: 40%;
-        max-width: 55%;
-        max-height: 100%;
-    }
-}
-
-
-@media (max-width: 1040px) {
-    .imgBackground {
-        max-width: 55%;
-        margin: 15px auto;
-        max-height: 87%;
-        background-color: red;
-    }
-    .imgBackground img {
-        margin-right: 40%;
-        max-width: 55%;
-        max-height: 100%;
-    }
-}
-
-
-@media (max-width: 834px) {
-    .imgBackground {
-        max-width: 55%;
-        margin: 15px auto;
-        max-height: 86%;
-        background-color: red;
-    }
-    .imgBackground img {
-        margin-right: 40%;
-        max-width: 55%;
-        max-height: 100%;
-    }
-}
-
-@media (max-width: 500px) {
-    .imgBackground {
-        max-width: 85%;
-        margin: 15px auto;
-        max-height: 86%;
-        background-color: red;
-    }
-    .imgBackground img {
-        margin-right: 40%;
-        max-width: 55%;
-        max-height: 100%;
-    }
-}
-
-@media (max-width: 428px) {
-    .imgBackground {
-        max-width: 85%;
-        margin: 15px auto;
-        max-height: 84%;
-        background-color: red;
-    }
-    .imgBackground img {
-        margin-right: 40%;
-        max-width: 55%;
-        max-height: 100%;
-    }
-}
-
-
-@media (max-width: 390px) {
-    .imgBackground {
-        max-width: 85%;
-        margin: 15px auto;
-        max-height: 83%;
-        background-color: red;
-    }
-    .imgBackground img {
-        margin-right: 40%;
-        max-width: 55%;
-        max-height: 100%;
-    }
-} */

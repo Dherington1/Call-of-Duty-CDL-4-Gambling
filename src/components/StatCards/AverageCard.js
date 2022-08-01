@@ -49,10 +49,12 @@ const AverageCard = ({avg, mode}) => {
   // dispatch the gamemode too 
   // pull to a variable gamemodes and if its not one of them then add avg
 
+  
+
 
   return (
     <div style={{textAlignVertical: "center",textAlign: "center",}}>
-      <h4>{`Average Kills ${avg}`}</h4>
+      <h4 className='avgKills'>{`Average Kills ${avg}`}</h4>
       <Button className={mode} onClick={addToGlobalState} id={avg} variant="outlined">Add Average</Button>
     </div>
   )
