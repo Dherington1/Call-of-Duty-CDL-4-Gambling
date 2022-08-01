@@ -28,9 +28,17 @@ const AverageCard = ({avg, mode}) => {
     // make id an float
     let intAvg = parseFloat(newAvgId);
 
+    // checks to see if avg is all ready added to global 
+    let found = false;
+    for(let i = 0; i < total.length; i++) {
+      if (total[i].mode === mode) {
+        found = true;
+        break;
+      }
+    }
 
     // check to see already in the party and if party is less than 6
-    if (total.length < 3 ) {
+    if (total.length < 3 && found === false) {
     
       // dispatch selected avg id to global variable
       dispatch(
@@ -43,14 +51,6 @@ const AverageCard = ({avg, mode}) => {
     }
     
   }
-
-
-  // hide button for gamemode
-  // dispatch the gamemode too 
-  // pull to a variable gamemodes and if its not one of them then add avg
-
-  
-
 
   return (
     <div style={{textAlignVertical: "center",textAlign: "center",}}>
