@@ -1,21 +1,6 @@
 body{
-    font-size: "Industry Medium";
+    font-family: "Dosis";
 }
-
-
-/* img of player styling */
-/* .imgBackground {
-    max-width: 35%;
-    margin: 15px auto;
-    max-height: 87%;
-    background-color: red;
-} */
-.imgBackground img {
-    /* margin-right: 40%; */
-    max-width: 256px;
-    max-height: 256px;
-}
-
 
 
 li{
@@ -96,3 +81,10 @@ li:hover{
     }
 }
 
+/* Player picture size to fit the team and their name */
+@media (max-width: 427px) {
+
+    #playerImg {
+        max-width: 150px;
+    }
+}

@@ -2,14 +2,14 @@ import React from 'react'
 
 // components
 import NavBar from '../components/navbar/NavBar';
-import PlayerSelection from '../components/PlayerSelection/PlayerSelection';
+import VanguardPlayerSelection from '../components/PlayerSelection/VanguardPlayerSelection';
 
 
 const Homepage = () => {
   return (
     <>
       <NavBar />
-      <PlayerSelection />
+      <VanguardPlayerSelection />
     </>
   );
 }

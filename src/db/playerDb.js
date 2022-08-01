@@ -20,9 +20,9 @@ const playerDb = [
                     { 
                         "map": "Bocage",   
                         "stats": {
-                            "kills": ["N/A"],
-                            "Opponent": ["N/A"],
-                            "Average": "N/A"
+                            "kills": ["NA"],
+                            "Opponent": ["NA"],
+                            "Average": "NA"
                         }
                     },
                     { 
@@ -49,9 +49,9 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": ["N/A"],
-                            "Opponent": ["N/A"],
-                            "Average": "N/A"
+                            "kills": ["NA"],
+                            "Opponent": ["NA"],
+                            "Average": "NA"
                         }
                     },
                     { 
@@ -96,9 +96,9 @@ const playerDb = [
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": ["N/A"],
-                            "Opponent": ["N/A"],
-                            "Average": "N/A"
+                            "kills": ["NA"],
+                            "Opponent": ["NA"],
+                            "Average": "NA"
                         }
                     },
                     {
@@ -2681,9 +2681,9 @@ const playerDb = [
                     {
                         "map": "Gavutu",
                         "stats": {
-                            "kills": ["N/A"],
-                            "Opponent": ["N/A"],
-                            "Average": "N/A"
+                            "kills": ["NA"],
+                            "Opponent": ["NA"],
+                            "Average": "NA"
                         }
                     }
                 ]
@@ -3201,9 +3201,9 @@ const playerDb = [
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": ["N/A"],
-                            "Opponent": ["N/A"],
-                            "Average": "N/A"
+                            "kills": ["NA"],
+                            "Opponent": ["NA"],
+                            "Average": "NA"
                         }
                     },
                     {
@@ -3891,9 +3891,9 @@ const playerDb = [
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": ["N/A"],
-                            "Opponent": ["N/A"],
-                            "Average": "N/A"
+                            "kills": ["NA"],
+                            "Opponent": ["NA"],
+                            "Average": "NA"
                         }
                     },
                     {
@@ -4812,9 +4812,9 @@ const playerDb = [
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": ["N/A"],
-                            "Opponent": ["N/A"],
-                            "Average": "N/A"
+                            "kills": ["NA"],
+                            "Opponent": ["NA"],
+                            "Average": "NA"
                         }
                     },
                     {
@@ -5502,9 +5502,9 @@ const playerDb = [
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": ["N/A"],
-                            "Opponent": ["N/A"],
-                            "Average": "N/A"
+                            "kills": ["NA"],
+                            "Opponent": ["NA"],
+                            "Average": "NA"
                         }
                     },
                     {
