@@ -13,6 +13,7 @@ import AverageCard from '../StatCards/AverageCard';
 import ExtraStatCard from '../StatCards/ExtraStatCard'
 import DisplayTotals from '../displayTotals/DisplayTotals'
 import VsCard from '../StatCards/VsCard';
+import Coffee from '../coffee/Coffee';
 
 //  import MUI
 import InputLabel from '@mui/material/InputLabel';
@@ -289,7 +290,7 @@ const PlayerSelection = () => {
                                     label="Select Player"
                                 >
                                     {playerDb.map(player => (
-                                        <MenuItem  class={player.team} value={player.name} id={player.name} onClick={handlePlayerPicked}>{player.name}</MenuItem>
+                                        <MenuItem class={player.team} value={player.name} id={player.name} onClick={handlePlayerPicked}>{player.name}</MenuItem>
                                     ))}
                                 </Select>
                             </FormControl>
@@ -452,46 +453,46 @@ const PlayerSelection = () => {
                         <form className="teamForm">
                             <fieldset className="teamFieldset">
                                 <Row className='statTitleRow'>
-                                    <Col className='statTitles' xs={3} sm={3} md={2}>Player</Col>
-                                    <Col  xs={4} sm={5} md={3}>VS.</Col>
-                                    <Col className='statTitles' xs={5} sm={4} md={2}>Kills / Deaths</Col>
-                                    <Col className='element-to-hide statTitles' xs={1} sm={3} md={3}>Gamemode</Col>
-                                    <Col className='element-to-hide statTitles' xs={1} sm={2} md={2}>Map</Col>
+                                    <Col className='statTitles' xs={3} sm={3} md={1} xl={2}>Player</Col>
+                                    <Col  xs={4} sm={5} md={2} xl={2}>VS.</Col>
+                                    <Col className='statTitles' xs={5} sm={4} md={2}  xl={2}>Kills / Deaths</Col>
+                                    <Col className='element-to-hide statTitles SND-hide' xs={1} sm={3} md={4} xl={3}>Gamemode</Col>
+                                    <Col className='element-to-hide statTitles' xs={1} sm={2} md={3} xl={3}>Map</Col>
                                 </Row>
 
                                 <Row className='statRow'>
                                     {/* Player name */}
-                                    <Col xs={3} sm={3} md={2}>
+                                    <Col xs={3} sm={3} md={1} xl={2}>
                                         {playerStatsOpponent.map(stats => (
                                             <ExtraStatCard extra={playerName} />
                                         ))}
                                     </Col>
                                     {/* VS words */}
-                                    <Col xs={2} sm={2} md={1}>
+                                    <Col xs={2} sm={2} md={1}  xl={1}>
                                         {playerStatsOpponent.map(stats => (
                                             <VsCard extra={VS} />
                                         ))}
                                     </Col>
                                     {/* Team imgs */}
-                                    <Col xs={2} sm={2} md={2}>
+                                    <Col xs={2} sm={2} md={1}  xl={1}>
                                         {playerStatsOpponent.map(stats => (
                                             <OpponentCard opp={stats} />
                                         ))}
                                     </Col>
                                     {/* Kills and Deaths */}
-                                    <Col xs={4} sm={5} md={2}>
+                                    <Col xs={4} sm={5} md={2}  xl={2}>
                                         {playerStatsKills.map(stats => (
                                             <KillCard kills={stats} />
                                         ))}
                                     </Col>
                                     {/* Gamemode */}
-                                    <Col className='element-to-hide' xs={2} sm={3} md={3}>
+                                    <Col className='element-to-hide SND-hide' xs={2} sm={3} md={4}  xl={3}>
                                         {playerStatsOpponent.map(stats => (
                                             <ExtraStatCard extra={compareGamemode} />
                                         ))}
                                     </Col>
                                     {/* Map */}
-                                    <Col className='element-to-hide' xs={2} sm={3} md={2}>
+                                    <Col className='element-to-hide' xs={2} sm={3} md={3}  xl={3}>
                                         {playerStatsOpponent.map(stats => (
                                             <ExtraStatCard  extra={compareMap} />
                                         ))}
@@ -506,20 +507,25 @@ const PlayerSelection = () => {
                             </fieldset>
                         </form>
 
+                        <Coffee />
                     </Container>
+
                 ): (
                     <div>
                         {/* empty */}
                     </div>
                 )}                                 
 
+
             </div>
+
         ) : (
             <div>
                 {/* empty */}
             </div>
         )}
-
+        
+        {/* <Coffee /> */}
    </>
   )
 }

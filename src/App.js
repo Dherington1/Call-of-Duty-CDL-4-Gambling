@@ -6,9 +6,9 @@ function App() {
   
   return (
     <>
-        <Router basename="/Pokemon-Team-Builder">
+        <Router basename="/Comms">
           <Switch>
-                <Route exact path="/" component={Homepage} />
+            <Route exact path="/" component={Homepage} />
           </Switch>
         </Router>
     </>

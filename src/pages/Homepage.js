@@ -3,7 +3,6 @@ import React from 'react'
 // components
 import NavBar from '../components/navbar/NavBar';
 import PlayerSelection from '../components/PlayerSelection/PlayerSelection';
-// import Footer from '../components/footer/Footer';
 
 
 const Homepage = () => {
@@ -11,7 +10,6 @@ const Homepage = () => {
     <>
       <NavBar />
       <PlayerSelection />
-      {/* <Footer /> */}
     </>
   );
 }

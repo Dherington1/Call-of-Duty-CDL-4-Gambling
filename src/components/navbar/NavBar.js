@@ -6,7 +6,8 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 
 
-export default function NavBar() {
+const NavBar = () => {
+
   return (
     <Box sx={{ flexGrow: 1 }} >
       <AppBar position="static" style={{ background: '#2E3B55' }}>
@@ -15,10 +16,12 @@ export default function NavBar() {
             <img src='https://see.fontimg.com/api/renderfont4/8MgZA/eyJyIjoiZnMiLCJoIjoyOSwidyI6MTAwMCwiZnMiOjI5LCJmZ2MiOiIjRjNGM0YzIiwiYmdjIjoiIzA5MDkwOSIsInQiOjF9/Q29tbXM/awmu-slant-demo.png' alt='logo' />
           </Typography>
 
-          <Button color="inherit">Vanguard</Button>
-          <Button color="inherit">MW2022</Button>
+            <Button color="inherit">Vanguard</Button>
+            <Button color="inherit">MW2022</Button>
         </Toolbar>
       </AppBar>
     </Box>
   );
 }
+
+export default NavBar;
