@@ -449,7 +449,7 @@ const playerDb = [
                     {
                         "map": "Gavutu",
                         "stats": {
-                            "kills": [],
+                            "kills": ["27 / 21", "29 / 22","25 / 20","24 / 31","23 / 23","11 / 18","32 / 28","24 / 27","21 / 9","21 / 16","22 / 25","27 / 27","32 / 29","11 / 18" ],
                             "Opponent": ["Mutineers",  "Guerrillas", "Surge",  "Guerrillas", "Ultra", "Optic", "Subliners", "Thieves", "Legion", "Faze", "Mutineers", "Legion", "Guerrillas", "Subliners"],
                             "Average": "23.50"
                         }
@@ -3002,33 +3002,33 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["26 / 22", "28 / 18", "18 / 23", "17 / 18", "23 / 31", "20 / 17", "26 / 27", "29 / 29", "8 / 31", "21 / 26", "31 / 21", "24 / 29", "23 / 28", "21 / 25", "20 / 26" ],
+                            "Opponent": ["Subliners", "Ultra","Ravens", "Legion", "Optic", "Guerrillas", "Thieves", "Faze", "ULtra" ,"Legion", "Thieves", "Mutineers", "Faze","Faze","Faze"],
+                            "Average": "22.33"
                         }
                     },
                     { 
                         "map": "Bocage",   
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["31 / 30", "36 / 31","30 / 31","35 / 37","35 / 33","31 / 29","35 / 26","47 / 29","26 / 33","22 / 34","25 / 23","39 / 32","43 / 31","29 / 33","29 / 28","36 / 36","23 / 20","26 / 40","34 / 34"],
+                            "Opponent": ["Rokkr", "Mutineers", "Optic", "Breach", "Faze", "Optic", "Optic", "Faze", "Legion", "Mutineers", "Ravens", "Subliners", "Faze", "Faze", "Legion", "Breach", "Subliners", "Rokkr", "Breach"],
+                            "Average": "32.21"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["19 / 23", "23 / 22","29 / 14","29 / 22","29 / 22","23 / 20","26 / 23","27 / 27","21 / 25","18 / 15","0 / 0","23 / 25"],
+                            "Opponent": ["Ultra", "Legion", "Faze", "Thieves", "Mutineers", "Mutineers", "Faze", "Breach", "Subliners", "Rokkr", "Breach", "Breach"],
+                            "Average": "22.25"
                         }
                     },
                     {
                         "map": "Gavutu",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["24 / 20", "16 / 20","15 / 19","24 / 21","22 / 22","27 / 22",],
+                            "Opponent": ["Rokkr", "Ravens", "Breach", "Guerrillas", "Ultra", "Subliners"],
+                            "Average": "21.33"
                         }
                     }
                 ]
@@ -3039,33 +3039,33 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["4 / 9", "6 / 9","8 / 6","5 / 7","6 / 6","5 / 6","6 / 7","2 / 8","9 / 6","3 / 7","11 / 5","5 / 8","11 / 6"],
+                            "Opponent": ["Rokkr", "Faze", "Thieves", "Optic", "Faze", "Ultra", "Legion", "Mutineers", "Subliners", "Faze", "Breach", "Rokkr", "Breach"],
+                            "Average": "6.23"
                         }
                     },
                     { 
                         "map": "Bocage",   
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["5 / 9", "5 / 5","1 / 8","11 / 9"],
+                            "Opponent": ["Subliners", "Ultra", "Optic", "Faze"],
+                            "Average": "5.50"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["11 / 7", "3 / 7","2 / 6","8 / 4","4 / 7","3 / 7","5 / 5","5 / 7","7 / 7","7 / 3","7 / 5","6 / 8","7 / 8","6 / 6","11 / 6","8 / 8"],
+                            "Opponent": ["Ultra", "Rokkr", "Mutineers", "Ravens", "Optic", "Legion", "Faze", "Guerrillas", "Faze", "Subliners", "Mutineers", "Faze", "Legion", "Faze", "Breach", "Breach"],
+                            "Average": "6.25"
                         }
                     },
                     {
                         "map": "Desert Seige",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["8 / 9","4 / 6","8 / 6","6 / 6","8 / 7","5 / 7","2 / 7","6 / 7"],
+                            "Opponent": ["Legion", "Breach", "Ultra", "Thieves", "Ravens", "Faze", "Subliners", "Rokkr"],
+                            "Average": "5.88"
                         }
                     }
                 ]
@@ -3078,25 +3078,25 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["31 / 21","33 / 23","33 / 27","36 / 22","32 / 19","23 / 31","16 / 15","19 / 24","18 / 15","36 / 26","35 / 30","23 / 16","19 / 21","20 / 32","24 / 32","24 / 24","24 / 24"],
+                            "Opponent": ["Rokkr", "Mutineers", "Optic", "Legion", "Breach", "Optic", "Thieves", "Optic", "Mutineers", "Mutineers", "Faze", "Faze", "Breach", "Subliners", "Rokkr", "Breach"],
+                            "Average": "26.24"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["18 / 15", "16 / 14","22 / 14","15 / 14","28 / 30","28 / 28","17 / 18","35 / 30"],
+                            "Opponent": ["Ultra", "Legion", "Thieves", "Ravens", "Subliners", "Faze", "Legion", "Faze"],
+                            "Average": "22.38"
                         }
                     },
                     {
                         "map": "Gavutu",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["18 / 21","25 / 28","14 / 21","25 / 22","24 / 25","17 / 27"],
+                            "Opponent": ["Subliners", "Ultra", "Ravens", "Faze", "Guerrillas", "Faze", "Guerrillas"],
+                            "Average": "20.50"
                         }
                     }
                 ]
@@ -3105,8 +3105,8 @@ const playerDb = [
 
     },
     {
-        "name": "",
-        "team": "",
+        "name": "MajorManiak",
+        "team": "Mutineers",
         "gameModes": 
         [
             {
@@ -3117,33 +3117,33 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["20 / 24", "17 / 21","17 / 20","17 / 24","23 / 19","32 / 25","31 / 21","13 / 26","21 / 26","23 / 19","24 / 23","21 / 22"],
+                            "Opponent": ["Optic", "Ravens", "Faze", "Ultra", "Legion", "Subliners", "Rokkr", "Ravens", "Legion", "Thieves", "Subliners", "Faze"],
+                            "Average": "21.58"
                         }
                     },
                     { 
                         "map": "Bocage",   
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["31 / 27", "35 / 32", "28 / 26", "25 / 34"],
+                            "Opponent": ["Mutineers", "Guerrillas", "Thieves", "Subliners"],
+                            "Average": "29.75"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["33 / 30", "19 / 24","24 / 26","24 / 24","23 / 19","16 / 18","35 / 24","27 / 27","24 / 24","22 / 21","14 / 20","30 / 25","31 / 23","18 / 21"],
+                            "Opponent": ["Optic", "Ravens", "Guerrillas", "Thieves", "Legion", "Breach", "Thieves", "Subliners", "Optic", "Subliners", "Ravens", "Legion", "Thieves", "Breach"],
+                            "Average": "24.29"
                         }
                     },
                     {
                         "map": "Gavutu",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["18 / 18", "23 / 17","16 / 23","27 / 22","14 / 17","31 / 18","17 / 20"],
+                            "Opponent": ["Surge", "Guerrillas", "Thieves", "Ultra", "Optic", "Breach", "Faze"],
+                            "Average": "20.86"
                         }
                     }
                 ]
@@ -3154,33 +3154,33 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["7 / 3", "9 / 6","4 / 9","4 / 7","4 / 6","5 / 8",],
+                            "Opponent": ["Optic", "Surge", "Faze", "Ultra", "Legion", "Thieves"],
+                            "Average": "5.50"
                         }
                     },
                     { 
                         "map": "Bocage",   
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["4 / 5", "6 / 6","4 / 9","7 / 3","3 / 7","9 / 4","6 / 8","7 / 8"],
+                            "Opponent": ["Guerrillas", "Legion", "Breach", "Thieves", "Subliners", "Rokkr", "Ravens", "Breach"],
+                            "Average": "5.75"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["10 / 6", "4 / 5","1 / 7","9 / 5","4 / 6","9 / 3","8 / 6","9 / 5","10 / 6","5 / 5",],
+                            "Opponent": ["Optic", "Surge", "Ravens", "Guerrillas", "Guerrillas", "Thieves", "Legion", "Thieves", "Subliners", "Faze"],
+                            "Average": "6.90"
                         }
                     },
                     {
                         "map": "Desert Seige",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["9 / 6", "7 / 7", "8 / 6", "3 / 6", "5 / 6",],
+                            "Opponent": ["Optic", "Subliners", "Legion", "Thieves", "Breach"],
+                            "Average": "6.40"
                         }
                     }
                 ]
@@ -3193,25 +3193,25 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["21 / 22", "21 / 29","18 / 22","15 / 22","19 / 20","22 / 20","18 / 22","26 / 28","22 / 35","27 / 23","28 / 28","19 / 19","22 / 30","17 / 24"],
+                            "Opponent": ["Optic", "Surge", "Ravens", "Faze", "Ultra", "Legion", "Breach", "Optic", "Subliners", "Rokkr", "Ravens", "Legion", "Subliners", "Faze"],
+                            "Average": "21.07"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["N/A"],
+                            "Opponent": ["N/A"],
+                            "Average": "N/A"
                         }
                     },
                     {
                         "map": "Gavutu",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["21 / 30", "18 / 19", "27 / 26", "27 / 16", "28 / 23", "26 / 29", "15 / 19", ],
+                            "Opponent": ["Guerrillas", "Guerrillas", "Thieves", "Thieves", "Subliners", "Thieves", "Breach"],
+                            "Average": "23.14"
                         }
                     }
                 ]
@@ -3220,8 +3220,8 @@ const playerDb = [
 
     },
     {
-        "name": "",
-        "team": "",
+        "name": "Methodz",
+        "team": "Breach",
         "gameModes": 
         [
             {
@@ -3232,33 +3232,33 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["27 / 23", "15 / 25","18 / 21","30 / 21","23 / 26","27 / 24","17 / 21","22 / 24"],
+                            "Opponent": ["Subliners", "Optic", "Mutineers", "Guerrillas", "Subliners", "Ravens", "Mutineers", "Optic"],
+                            "Average": "22.38"
                         }
                     },
                     { 
                         "map": "Bocage",   
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["25 / 32", "22 / 22","22 / 26","32 / 26","27 / 31","26 / 28","28 / 30","34 / 29","36 / 36","27 / 31","29 / 30","31 / 24","30 / 33","25 / 31","21 / 34","33 / 22"],
+                            "Opponent": ["Guerrillas", "Legion", "Faze", "Subliners", "Faze", "Mutineers", "Legion", "Surge", "Ultra", "Faze", "Rokkr", "Optic", "Surge","Guerrillas", "Surge", "Optic"],
+                            "Average": "28.00"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["31 / 23", "23 / 17","25 / 20","33 / 21","25 / 7","29 / 26","28 / 21","32 / 29","23 / 28","28 / 29","24 / 17","24 / 26","24 / 12","","","","",],
+                            "Opponent": ["Guerrillas", "Legion", "Legion", "Ultra", "Rokkr", "Ravens", "Mutineers", "Guerrillas", "Subliners", "Surge", "Guerrillas", "Ultra", "Mutineers",],
+                            "Average": "23.27"
                         }
                     },
                     {
                         "map": "Gavutu",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["15 / 20", "26 / 21","33 / 18","11 / 13","24 / 12","22 / 14","26 / 18","20 / 13","25 / 15","20 / 19","19 / 22","15 / 19","23 / 22","11 / 25","27 / 23","30 / 20","19 / 25"],
+                            "Opponent": ["Faze", 'Optic', "Ultra", "Surge", "Ultra", "Mutineers", "Ravens", "Guerrillas", "Mutineers", "Faze", "Ravens", "Thieves", "Mutineers", "Optic", "Thieves", "Ultra", "Mutineers"],
+                            "Average": "21.53"
                         }
                     }
                 ]
@@ -3269,33 +3269,33 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["6 / 7", "7 / 2", "9 / 6", "3 / 8", "2 / 8", "7 / 8","4 / 5","4 / 7","6 / 4","7 / 6","6 / 6"],
+                            "Opponent": ["Guerrillas", "Legion", "Subliners", "Optic", "Faze", "Ultra", "Subliners", "Surge", "Ultra", "Surge", "Optic"],
+                            "Average": "5.55"
                         }
                     },
                     { 
                         "map": "Bocage",   
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["6 / 6", "8 / 7", "11 / 7","8 / 8","4 / 6","4 / 6","6 / 8","5 / 7","6 / 9"],
+                            "Opponent": ["Subliners", "Mutineers", "Rokkr", "Ravens", "Guerrillas", "Mutineers", "Optic", "Guerrillas", "Mutineers"],
+                            "Average": "6.44"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["9 / 5", "5 / 5","4 / 6","3 / 6","7 / 3","10 / 6","8 / 6","8 / 7","6 / 7","4 / 5","4 / 7","7 / 6","5 / 7","7 / 6","3 / 5"],
+                            "Opponent": ["Guerrillas", "Faze", "Legion", "Ultra", "Ultra", "Guerrillas", "Mutineers", "Guerrillas", "Ravens", "Thieves", "Mutineers", "Optic", "Thieves", "Surge", "Surge"],
+                            "Average": "5.63"
                         }
                     },
                     {
                         "map": "Desert Seige",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["13 / 7", "7 / 3","6 / 5","11 / 5","7 / 2","3 / 5","2 / 7","5 / 7","4 / 6","6 / 6",],
+                            "Opponent": ["Mutineers", "Surge", "Ultra", "Mutineers", "Mutineers", "Faze", "Faze", "Rokkr", "Ultra", "Mutineers"],
+                            "Average": "6.40"
                         }
                     }
                 ]
@@ -3308,25 +3308,25 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["19 / 24", "24 / 20","24 / 17","17 / 24","22 / 16","32 / 14","36 / 22","24 / 24","31 / 21","28 / 22","21 / 19","16 / 15","21 / 16","25 / 20","25 / 25","25 / 25","22 / 21"],
+                            "Opponent": ["Faze", "Mutineers", "Legion", "Surge", "Rokkr", "Ravens", "Guerrillas", "Faze", "Guerrillas", "Faze", "Mutineers", "Rokkr", "Optic", "Surge", "Guerrillas", "Surge", "Surge", "Optic"],
+                            "Average": "24.24"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["15 / 11", "26 / 23", "18 / 15"],
+                            "Opponent": ["Ravens", "Faze", "Thieves"],
+                            "Average": "19.67"
                         }
                     },
                     {
                         "map": "Gavutu",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["26 / 25", "30 / 29","25 / 22","11 / 18","14 / 18","22 / 19","31 / 18","7 / 14","20 / 22","24 / 26","18 / 24","26 / 25","23 / 8"],
+                            "Opponent": ["Guerrillas", "Legion", "Faze", "Optic", "Ultra", "Ultra", "Mutineers", "Mutineers", "Subliners", "Subliners", "Thieves", "Ultra", "Mutineers" ],
+                            "Average": "21.31"
                         }
                     }
                 ]
@@ -3335,8 +3335,8 @@ const playerDb = [
 
     },
     {
-        "name": "",
-        "team": "",
+        "name": "Nastie",
+        "team": "Ravens",
         "gameModes": 
         [
             {
@@ -3347,33 +3347,33 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["19 / 25", "21 / 22","30 / 25","15 / 23","21 / 27","27 / 24","22 / 27","25 / 28","39 / 30","19 / 28","25 / 25","17 / 23","24 / 23","25 / 26","26 / 20","18 / 17","26 / 29","21 / 26","37 / 29","30 / 25"],
+                            "Opponent": ["Rokkr", "Surge", "Guerrillas", "Optic", "Faze", "Subliners", "Legion", "Faze", "Legion", "Legion", "Breach", "Ultra", "Subliners", "Ultra", "Rokkr", "Mutineers", "Faze", "Guerrillas", "Ultra", "Guerrillas"],
+                            "Average": "24.35"
                         }
                     },
                     { 
                         "map": "Bocage",   
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["33 / 32", "17 / 31"],
+                            "Opponent": ["Optic", "Surge"],
+                            "Average": "25.00"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["27 / 15", "19 / 16", "21 / 25", "18 / 18", "30 / 28", "26 / 21", "21 / 35", "26 / 25", "25 / 22", "19 / 26", "29 / 32", "26 / 17", "30 / 23", "29 / 30", "30 / 20", "23 / 25", "28 / 29", "23 / 21"],
+                            "Opponent": ["Optic", "Rokkr", "Guerrillas", "Guerrillas", "Ultra", "Optic", "Legion", "Breach", "Legion", "Guerrillas", "Ultra", "Subliners", "Ultra", "Rokkr", "Mutineers", "Guerrillas", "Ultra", "Guerrillas"],
+                            "Average": "25.00"
                         }
                     },
                     {
                         "map": "Gavutu",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["18 / 15", "25 / 28", "17 / 18", "21 / 25", "19 / 25", "20 / 16", "32 / 20", "24 / 24", "24 / 18", "21 / 25", "22 / 20", "16 / 22", "30 / 21", "21 / 23", "14 / 25"],
+                            "Opponent": ["Mutineers", "Guerrillas", "Surge", "Ultra", "Faze", "Subliners", "Thieves", "Faze", "Breach", "Mutineers", "Thieves", "Legion", "Breach", "Optic", "Faze"],
+                            "Average": "21.60"
                         }
                     }
                 ]
@@ -3384,32 +3384,32 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["11 / 7", "8 / 7","2 / 6","2 / 9","8 / 8",],
+                            "Opponent": ["Legion", "Mutineers",  "Guerrillas", "Guerrillas", "Guerrillas",],
+                            "Average": "6.20"
                         }
                     },
                     { 
                         "map": "Bocage",   
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["5 / 8","9 / 4","5 / 7","3 / 6","5 / 9","5 / 4","7 / 9","6 / 7","9 / 9","3 / 7","10 / 9","4 / 6","7 / 7"],
+                            "Opponent": ["Optic", "Legion", "Faze", "Breach", "Legion", "Legion", "Subliners", "Optic", "Mutineers", "Faze",  "Guerrillas", "Ultra",  "Guerrillas"],
+                            "Average": "6.00"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["10 / 7","5 / 2","5 / 6","5 / 6","11 / 8","8 / 7","2 / 6","10 / 7","6 / 10","5 / 4","6 / 7","4 / 6"],
+                            "Opponent": ["Optic", "Rokkr",  "Guerrillas", "Surge",  "Guerrillas", "Ultra", "Optic", "Thieves", "Thieves", "Legion", "Breach", "Ultra"],
+                            "Average": "6.42"
                         }
                     },
                     {
                         "map": "Desert Seige",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
+                            "kills": ["8 / 1","3 / 5","4 / 9","8 / 5","7 / 8","8 / 8","10 / 6","2 / 9"],
+                            "Opponent": ["Mutineers", "Guerrillas", "Faze", "Subliners", "Surge", "Ultra", "Rokkr", "Ultra"],
                             "Average": ""
                         }
                     }
@@ -3423,25 +3423,25 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["19 / 22","16 / 27","26 / 33","17 / 28","31 / 34","11 / 23","31 / 27","31 / 31","15 / 26","20 / 22", ],
+                            "Opponent": ["Optic", "Rokkr", "Faze", "Breach", "Ultra", "Optic", "Rokkr", "Mutineers", "Guerrillas", "Ultra"],
+                            "Average": "21.70"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["19 / 28","15 / 24","18 / 21","16 / 23","27 / 28","20 / 23","26 / 29",],
+                            "Opponent": ["Thieves", "Legion", "Breach", "Surge", "Ultra", "Faze", "Guerrillas"],
+                            "Average": "20.14"
                         }
                     },
                     {
                         "map": "Gavutu",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["25 / 22","25 / 18","25 / 16","29 / 23","26 / 24","11 / 18","19 / 32","34 / 28","16 / 13","21 / 15","25 / 30","22 / 30","36 / 29","12 / 20"],
+                            "Opponent": ["Mutineers",  "Guerrillas", "Surge",  "Guerrillas", "Ultra", "Optic", "Subliners", "Thieves", "Legion", "Faze", "Mutineers", "Legion", "Guerrillas", "Subliners"],
+                            "Average": "23.29"
                         }
                     }
                 ]
@@ -3450,8 +3450,8 @@ const playerDb = [
 
     },
     {
-        "name": "",
-        "team": "",
+        "name": "Neptune",
+        "team": "Guerrillas",
         "gameModes": 
         [
             {
@@ -3462,33 +3462,33 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["21 / 30", "20 / 29","21 / 25","24 / 23","23 / 27","15 / 23","21 / 32","29 / 27",],
+                            "Opponent": ["Surge", "Guerrillas", "Ravens", "Thieves", "Ultra", "Subliners", "Ravens", "Ravens"],
+                            "Average": "21.75"
                         }
                     },
                     { 
                         "map": "Bocage",   
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["20 / 29", "31 / 30","41 / 29","30 / 31","30 / 41","34 / 39",],
+                            "Opponent": ["Mutineers", "Legion", "Rokkr", "Faze", "Breach", "Faze"],
+                            "Average": "31.00"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["22 / 23", "25 / 11","26 / 25","32 / 17","25 / 23","30 / 24","21 / 17","30 / 24","30 / 22"],
+                            "Opponent": ["Guerrillas", "Legion", "Rokkr", "Ultra", "Thieves", "Faze", "Breach", "Ravens", "Ravens"],
+                            "Average": "26.78"
                         }
                     },
                     {
                         "map": "Gavutu",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["13 / 22", "29 / 27", "15 / 18", "27 / 18", "18 / 17"],
+                            "Opponent": ["Ravens", "Ultra", "Faze", "Ultra", "Subliners"],
+                            "Average": "20.40"
                         }
                     }
                 ]
@@ -3499,33 +3499,33 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["4 / 7", "9 / 10","7 / 8","7 / 5","4 / 6"],
+                            "Opponent": ["Mutineers", "Faze", "Thieves", "Ravens", "Ravens"],
+                            "Average": "6.20"
                         }
                     },
                     { 
                         "map": "Bocage",   
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["8 / 8", "9 / 5","6 / 5","7 / 8","4 / 9",],
+                            "Opponent": ["Surge", "Rokkr", "Breach", "Ravens", "Ravens"],
+                            "Average": "6.80"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["0 / 6", "8 / 7", "7 / 6", "7 / 7", ],
+                            "Opponent": ["Guerrillas", "Ultra", "Faze", "Faze"],
+                            "Average": "5.50"
                         }
                     },
                     {
                         "map": "Desert Seige",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["6 / 6", "8 / 4", "9 / 8", "7 / 10", "6 / 8", "5 / 8",],
+                            "Opponent": ["Ravens", "Legion", "Ultra", "Thieves", "Ultra", "Subliners" ],
+                            "Average": "6.83"
                         }
                     }
                 ]
@@ -3538,25 +3538,25 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["22 / 35", "14 / 24","20 / 28","29 / 35","28 / 25","17 / 22","26 / 30","23 / 18","17 / 19"],
+                            "Opponent": ["Guerrillas", "Mutineers", "Legion", "Ultra", "Thieves", "Ultra", "Thieves", "Faze", "Breach", "Ravens", "Faze"],
+                            "Average": "21.78"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["25 / 25", "27 / 27", "34 / 25", ],
+                            "Opponent": ["Ultra", "Subliners", "Ravens"],
+                            "Average": "28.67"
                         }
                     },
                     {
                         "map": "Gavutu",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["24 / 22", "20 / 29","25 / 26","31 / 24",],
+                            "Opponent": ["Surge", "Ravens", "Rokkr", "Faze"],
+                            "Average": "25.00"
                         }
                     }
                 ]
@@ -3565,8 +3565,8 @@ const playerDb = [
 
     },
     {
-        "name": "",
-        "team": "",
+        "name": "Nero",
+        "team": "Breach",
         "gameModes": 
         [
             {
@@ -3577,33 +3577,33 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["33 / 26","23 / 25", "19 / 22", "39 / 30", "25 / 27", "28 / 24", "29 / 24", "35 / 30",  ],
+                            "Opponent": ["Subliners", "Optic", "Mutineers", "Guerrillas", "Subliners", "Ravens", "Mutineers", "Optic"],
+                            "Average": "28.88"
                         }
                     },
                     { 
                         "map": "Bocage",   
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["37 / 42", "26 / 37", "29 / 30", "30 / 28", "36 / 43", "21 / 41", "40 / 35", "30 / 47", "51 / 38", "39 / 37", "38 / 41", "49 / 33", "32 / 38","39 / 30", "43 / 37","29 / 36"],
+                            "Opponent": ["Guerrillas", "Legion", "Faze", "Subliners", "Faze", "Mutineers", "Legion", "Surge", "Ultra", "Faze", "Rokkr", "Optic", "Surge","Guerrillas", "Surge", "Optic"],
+                            "Average": "35.56"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["27 / 33", "34 / 20", "24 / 21", "29 / 26", "11 / 23", "25 / 28", "21 / 29", "26 / 34", "25 / 34", "27 / 30", "30 / 24", "24 / 34","24 / 24"],
+                            "Opponent": ["Guerrillas", "Legion", "Legion", "Ultra", "Rokkr", "Ravens", "Mutineers", "Guerrillas", "Subliners", "Surge", "Guerrillas", "Ultra", "Mutineers"],
+                            "Average": "21.80"
                         }
                     },
                     {
                         "map": "Gavutu",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["14 / 21", "29 / 23", "30 / 27", "17 / 21", "26 / 11", "15 / 16", "17 / 21", "23 / 24", "21 / 22", "17 / 24",  "26 / 25", "14 / 23", "29 / 21", "33 / 24", "17 / 32", "27 / 30", "28 / 26",],
+                            "Opponent": ["Faze", 'Optic', "Ultra", "Surge", "Ultra", "Mutineers", "Ravens", "Guerrillas", "Mutineers", "Faze", "Ravens", "Thieves", "Mutineers", "Optic", "Thieves", "Ultra", "Mutineers"],
+                            "Average": "22.53"
                         }
                     }
                 ]
@@ -3614,33 +3614,33 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["3 / 5", "4 / 3", "8 / 8", "14 / 10", "7 / 7", "5 / 8", "9 / 6", "4 / 6", "8 / 5", "4 / 5", "2 / 6" ],
+                            "Opponent": ["Guerrillas", "Legion", "Subliners", "Optic", "Faze", "Ultra", "Subliners", "Surge", "Ultra", "Surge", "Optic"],
+                            "Average": "6.18"
                         }
                     },
                     { 
                         "map": "Bocage",   
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["3 / 8", "9 / 6", "7 / 8", "5 / 9", "4 / 7", "14 / 5", "3 / 10", "7 / 8", "3 / 9", ],
+                            "Opponent": ["Subliners", "Mutineers", "Rokkr", "Ravens", "Guerrillas", "Mutineers", "Optic", "Guerrillas", "Mutineers"],
+                            "Average": "6.11"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["5 / 7", "7 / 5", "8 / 6", "11 / 7", "7 / 4", "5 / 5", "4 / 5", "2 / 7", "8 / 9", "2 / 6", "11 / 7", "3 / 8", "7 / 6", "4 / 5",  "10 / 6"],
+                            "Opponent": ["Guerrillas", "Faze", "Legion", "Ultra", "Ultra", "Guerrillas", "Mutineers", "Guerrillas", "Ravens", "Thieves", "Mutineers", "Optic", "Thieves", "Surge", "Surge"],
+                            "Average": "5.88"
                         }
                     },
                     {
                         "map": "Desert Seige",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["3 / 7", "4 / 7", "2 / 8", "9 / 5", "5 / 7", "4 / 8", "6 / 7", "3 / 7", "0 / 6", "6 / 7", ],
+                            "Opponent": ["Mutineers", "Surge", "Ultra", "Mutineers", "Mutineers", "Faze", "Faze", "Rokkr", "Ultra", "Mutineers"],
+                            "Average": "4.20"
                         }
                     }
                 ]
@@ -3653,24 +3653,24 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["25 / 31", "25 / 26", "34 / 22", "23 / 31", "25 / 24", "17 / 27", "24 / 29", "26 / 29", "35 / 27", "22 / 23", "26 / 25", "25 / 20", "30 / 13", "34 / 16", "18 / 26", "18 / 26", "21 / 26", ],
+                            "Opponent": ["Faze", "Mutineers", "Legion", "Surge", "Rokkr", "Ravens", "Guerrillas", "Faze", "Guerrillas", "Faze", "Mutineers", "Rokkr", "Optic", "Surge", "Guerrillas", "Surge", "Surge", "Optic"],
+                            "Average": "25.18"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
+                            "kills": ["", "", "", ],
+                            "Opponent": ["Ravens", "Faze", "Thieves"],
                             "Average": ""
                         }
                     },
                     {
                         "map": "Gavutu",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
+                            "kills": ["", "", "", "", "", "", "", "", "", "", "", ],
+                            "Opponent": ["Guerrillas", "Legion", "Faze", "Optic", "Ultra", "Ultra", "Mutineers", "Mutineers", "Subliners", "Subliners", "Thieves", "Ultra", "Mutineers"],
                             "Average": ""
                         }
                     }
@@ -3680,8 +3680,8 @@ const playerDb = [
 
     },
     {
-        "name": "",
-        "team": "",
+        "name": "Octane",
+        "team": "Thieves",
         "gameModes": 
         [
             {
@@ -3692,33 +3692,33 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["18 / 20", "23 / 19","27 / 28","28 / 24","15 / 26","21 / 33","23 / 29","24 / 26","31 / 29","22 / 21","26 / 27","24 / 25","20 / 21","26 / 23","22 / 24","26 / 23","21 / 21","22 / 26","31 / 29","23 / 23","25 / 20",],
+                            "Opponent": ["Faze", "Mutineers", "Ultra", "Faze", "Optic", "Guerillas", "Surge", "Subliners", "Optic", "Surge", "Rokkr", "Ultra", "Faze", "Legion", "Mutineers", "Subliners", "Faze", "Ultra", "Subliners", "Faze", "Subliners"],
+                            "Average": "23.71"
                         }
                     },
                     { 
                         "map": "Bocage",   
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["27 / 30","32 / 28","30 / 35","25 / 30","19 / 23","24 / 29","39 / 31","31 / 31",],
+                            "Opponent": ["Faze", "Subliners", "Mutineers", "Legion", "Ultra", "Rokkr", "Mutineers", "Subliners"],
+                            "Average": "28.38"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["32 / 27","25 / 20","27 / 28","23 / 28","20 / 29","23 / 23","19 / 26","16 / 26","26 / 24","23 / 25","28 / 20","33 / 22","28 / 22","29 / 22","25 / 18","19 / 25","26 / 26","28 / 15"],
+                            "Opponent": ["Ultra", "Rokkr", "Optic", "Rokkr", "Guerillas", "Surge", "Subliners", "Optic", "Optic", "Rokkr", "Optic", "Ultra", "Mutineers", "Subliners", "Faze", "Subliners", "Faze", "Subliners"],
+                            "Average": "25.00"
                         }
                     },
                     {
                         "map": "Gavutu",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["17 / 21","18 / 14","14 / 23","27 / 30","23 / 18","15 / 23","20 / 22","28 / 23","25 / 25","34 / 11","17 / 21","19 / 22","28 / 23","22 / 18"],
+                            "Opponent": ["Subliners", "Legion", "Ultra", "Subliners", "Rokkr", "Faze", "Ravens", "Ravens", "Rokkr", "Breach", "Faze", "optic", "Breach", "Faze"],
+                            "Average": "21.93"
                         }
                     }
                 ]
@@ -3729,33 +3729,33 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["9 / 7","7 / 5","4 / 8","3 / 7","12 / 7","10 / 4","5 / 6","8 / 5","11 / 7","3 / 6","6 / 5","9 / 5","3 / 5"],
+                            "Opponent": ["Subliners", "Ultra", "Ultra", "Faze", "Optic", "Rokkr", "Surge", "Subliners", "Optic", "Rokkr", "Legion", "Subliners", "Faze"],
+                            "Average": "6.92"
                         }
                     },
                     { 
                         "map": "Bocage",   
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["7 / 6","5 / 8","6 / 6","4 / 10","0 / 9","4 / 8","4 / 4","1 / 6","0 / 6","6 / 7"],
+                            "Opponent": ["Mutineers", "Subliners", "Rokkr", "Guerillas", "Optic", "Mutineers", "Rokkr", "Faze", "Faze", "Subliners"],
+                            "Average": "3.70"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["9 / 8","6 / 8","6 / 6","3 / 7","7 / 6","9 / 7","4 / 2","3 / 8","9 / 5","6 / 9","5 / 5","0 / 6","4 / 4","6 / 1","2 / 6","12 / 8","5 / 3",],
+                            "Opponent": ["Mutineers", "Legion", "Rokkr", "Faze", "Ravens", "Ravens", "Breach", "Optic", "Optic", "Ultra", "Breach", "Faze", "Mutineers", "Ultra", "Subliners", "Faze", "Subliners"],
+                            "Average": "5.65"
                         }
                     },
                     {
                         "map": "Desert Seige",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["7 / 7","5 / 5","6 / 2","3 / 6","13 / 10","7 / 6","5 / 4","7 / 5","4 / 5","9 / 6",],
+                            "Opponent": ["Faze", "Ultra", "Optic", "Guerillas", "Subliners", "Surge", "Rokkr", "Mutineers", "Subliners", "Subliners"],
+                            "Average": "6.60"
                         }
                     }
                 ]
@@ -3768,25 +3768,25 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["13 / 18","22 / 28","31 / 27","22 / 33","12 / 16","8 / 19","12 / 21","34 / 29","17 / 17","29 / 37","27 / 31","36 / 26","17 / 13"],
+                            "Opponent": ["Faze", "Mutineers", "Ultra", "Ultra", "Faze", "Optic", "Surge", "Subliners", "Optic", "Mutineers", "Faze", "Faze", "Faze"],
+                            "Average": "21.54"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["17 / 22","37 / 32","21 / 21","13 / 17","19 / 22","29 / 29","19 / 12","33 / 23","34 / 20","20 / 18","15 / 11","13 / 14"],
+                            "Opponent": ["Ravens", "Rokkr", "Surge", "Breach", "Optic", "Rokkr", "Optic", "Ultra", "Subliners", "Ultra", "Subliners", "Subliners"],
+                            "Average": "22.50"
                         }
                     },
                     {
                         "map": "Gavutu",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["23 / 15","26 / 18","14 / 20","20 / 24","24 / 23","23 / 23","20 / 27","14 / 19","22 / 15","23 / 14","27 / 25","19 / 24"],
+                            "Opponent": ["Subliners", "Legion", "Subliners", "Rokkr", "Ravens", "Rokkr", "Guerillas", "Faze", "Breach", "Legion", "Mutineers", "Subliners"],
+                            "Average": "21.25"
                         }
                     }
                 ]
@@ -3795,8 +3795,8 @@ const playerDb = [
 
     },
     {
-        "name": "",
-        "team": "",
+        "name": "Owakening",
+        "team": "Mutineers",
         "gameModes": 
         [
             {
@@ -3807,33 +3807,33 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["32 / 22", "22 / 23","37 / 13","31 / 24","22 / 17","20 / 24","33 / 23","35 / 24","34 / 25","31 / 28","17 / 20","22 / 28","23 / 24","29 / 22","26 / 22"],
+                            "Opponent": ["Legion", "Thieves", "Breach", "Optic", "Guerrillas", "Breach", "Optic","Subliners", "Rokkr", "Ravens", "Legion", "Thieves", "Subliners", "Faze"],
+                            "Average": "27.60"
                         }
                     },
                     { 
                         "map": "Bocage",   
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["28 / 29", "41 / 32", "31 / 34", "36 / 27", "35 / 26", "34 / 27", "37 / 22", "35 / 31","28 / 26", "31 / 31", "31 / 33", "32 / 31","35 / 35", ],
+                            "Opponent": ["Legion", "Thieves", "Ultra", "Surge", "Breach", "Guerrillas", "Subliners", "Optic", "Faze", "Rokkr", "Surge", "Thieves", "Ultra"],
+                            "Average": "33.38"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["16 / 24", "17 / 25", "29 / 25","24 / 27", "33 / 28", "22 / 26", "29 / 20","22 / 25", "27 / 25", "29 / 28", "23 / 21",],
+                            "Opponent": ["Breach", "Optic", "Guerrillas", "Surge", "Optic", "Surge", "Subliners", "Ravens", "Legion", "Thieves", "Breach"],
+                            "Average": "24.64"
                         }
                     },
                     {
                         "map": "Gavutu",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["21 / 17", "19 / 20", "16 / 21","24 / 18", "19 / 20", "24 / 25", "27 / 16","19 / 19", "20 / 15", "18 / 22", "29 / 21","22 / 20"],
+                            "Opponent": ["Ravens", "Faze", "Breach", "Ravens", "breach", "Optic", "Guerrillas", "Guerrillas", "Rokkr", "Breach", "Breach", "Faze"],
+                            "Average": "21.50"
                         }
                     }
                 ]
@@ -3844,33 +3844,33 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["6 / 8", "9 / 7", "7 / 8","8 / 6", "5 / 8", "10 / 7", "8 / 8","7 / 7", "6 / 8",],
+                            "Opponent": ["Legion", "Ultra", "Guerrillas", "Subliners", "Ravens", "Guerrillas", "Rokkr", "Surge", "Optic", ],
+                            "Average": "9.00"
                         }
                     },
                     { 
                         "map": "Bocage",   
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["12 / 8", "9 / 8", "8 / 8","7 / 8", "4 / 6", "8 / 10", "10 / 7"],
+                            "Opponent": ["Thieves", "Breach", "Breach", "Thieves","Rokkr", "Ravens", "Breach"],
+                            "Average": "8.29"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["6 / 9", "6 / 3", "8 / 7","7 / 4", "6 / 7", "4 / 5", "8 / 7","8 / 9", "9 / 6", "4 / 5", "0 / 8","9 / 8", "7 / 6", "2 / 7","6 / 2"],
+                            "Opponent": ["Thieves", "Surge", "Optic", "Faze", "Breach", "Optic","Optic", "Guerrillas", "Breach", "Optic", "Surge", "Ultra", "Legion", "Thieves", "Subliners", "Faze"],
+                            "Average": "6.88"
                         }
                     },
                     {
                         "map": "Desert Seige",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["1 / 6", "6 / 7", "8 / 10","4 / 7", "6 / 8", "4 / 8", "10 / 6","7 / 7", "8 / 5"],
+                            "Opponent": ["Ravens", "Breach","Breach","Breach","Guerrillas", "Subliners", "Legion", "Thieves", "Breach" ],
+                            "Average": "6.00"
                         }
                     }
                 ]
@@ -3883,25 +3883,25 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["30 / 28", "28 / 30", "31 / 24","32 / 20", "29 / 23", "32 / 20", "26 / 24","23 / 23", "36 / 32", "22 / 19", "33 / 25","39 / 33", "32 / 21", "38 / 35","31 / 28", "29 / 35", "24 / 31", "35 / 34","13 / 27", "41 / 33", "18 / 21"],
+                            "Opponent": ["Thieves", "Ultra", "Surge", "Breach", "Guerrillas", "Subliners", "Optic", "Faze", "Rokkr", "Surge", "Breach", "Thieves", "Optic", "Surge", "Subliners", "Rokkr", "Ultra", "Ravens", "Legion", "Subliners", "Faze"],
+                            "Average": "29.62"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["N/A"],
+                            "Opponent": ["N/A"],
+                            "Average": "N/A"
                         }
                     },
                     {
                         "map": "Gavutu",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["24 / 24", "28 / 26", "26 / 28","24 / 24", "20 / 11", "20 / 21", "30 / 30","25 / 16", "26 / 26", "11 / 21", "","", "", "","", "", "", "","", "", "", "",],
+                            "Opponent": ["Ravens", "Legion", "Breach", "Ravens", "Breach", "Optic", "Guerrillas", 'Guerrillas', "Thieves", "Breach",], 
+                            "Average": "23.40"
                         }
                     }
                 ]
@@ -3910,8 +3910,8 @@ const playerDb = [
 
     },
     {
-        "name": "",
-        "team": "",
+        "name": "PaulEhx",
+        "team": "Subliners",
         "gameModes": 
         [
             {
@@ -3922,33 +3922,33 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["25 / 23", "27 / 33", "33 / 28", "27 / 26","24 / 25", "32 / 24","26 / 28", "20 / 17","21 / 25", "16 / 24","16 / 28", "19 / 27","21 / 28"],
+                            "Opponent": ["Subliners","Thieves","Faze", "Ravens" ,"Thieves", "Faze", "Breach", "Optic", "Ravens ", "Mutineers", "Guerillas", "Thieves", "Rokkr", "Mutineers", "Thieves", "Thieves"],
+                            "Average": "23.62"
                         }
                     },
                     { 
                         "map": "Bocage",   
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["27 / 29", "39 / 30", "29 / 27", "28 / 34","21 / 28", "33 / 27","31 / 36", "32 / 29",],
+                            "Opponent": ["Legion", "Rokkr", "Legion", "Surge", "Surge", "Optic", "Rokkr","Thieves"],
+                            "Average": "30.00"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["21 / 14", "28 / 26", "24 / 21", "30 / 26","27 / 28", "31 / 25","31 / 32", "23 / 25","21 / 21", "23 / 18","28 / 22", "25 / 25","22 / 18", "20 / 30","18 / 23"],
+                            "Opponent": ["Legion", "Rokkr", "Ultra", "Thieves", "Faze", "Breach", "Ultra", "Optic", "Ravens", "Mutineers", "Surge", "Optic", "Thieves", "Thieves", "Thieves"],
+                            "Average": "24.80"
                         }
                     },
                     {
                         "map": "Gavutu",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["23 / 17", "22 / 20", "24 / 22", "19 / 26","22 / 25", "24 / 26","12 / 17"],
+                            "Opponent": ["Subliners", "Thieves", "Ultra", "Faze", "Ultra", "Surge", "Guerillas"],
+                            "Average": "20.86"
                         }
                     }
                 ]
@@ -3959,33 +3959,33 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["6 / 7", "9 / 7", "5 / 6", "8 / 6","", "8 / 6","1 / 7"],
+                            "Opponent": ["Faze", "Thieves", "Breach", "Surge", "Thieves", "Rokkr"],
+                            "Average": "6.17"
                         }
                     },
                     { 
                         "map": "Bocage",   
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["10 / 3", "5 / 7", "9 / 8", "11 / 6","6 / 6",],
+                            "Opponent": ["Rokkr", "Faze", "Ravens", "Optic", "Thieves"],
+                            "Average": "8.20"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["11 / 5", "4 / 4", "5 / 8", "9 / 7","5 / 8", "6 / 4","10 / 5", "3 / 7"],
+                            "Opponent": ["Thieves","Legion", "Ultra", "Optic", "Surge", "Mutineers", "Thieves", "Thieves"],
+                            "Average": "6.63"
                         }
                     },
                     {
                         "map": "Desert Seige",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["3 / 7", "1 / 2", "3 / 8", "11 / 7","12 / 6", "7 / 4","7 / 7", "8 / 1","2 / 6", "8 / 5","6 / 7"],
+                            "Opponent": ["Subliners", "Legion", "Ultra", "Thieves", "Ultra", "Mutineers", "Guerillas", "Surge", "Thieves", "Rokkr", "Thieves"],
+                            "Average": "6.18"
                         }
                     }
                 ]
@@ -3998,25 +3998,25 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["16 / 30", "28 / 28", "31 / 30", "32 / 33","24 / 31", "37 / 22","27 / 22", "24 / 30",],
+                            "Opponent": ["Legion", "Ultra", "Thieves", "Ultra", "Optic", "Mutineers", "Surge", "Mutineers"],
+                            "Average": "27.38"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["33 / 31", "28 / 21", "21 / 15", "25 / 28","14 / 17", "12 / 16","14 / 17"],
+                            "Opponent": ["Surge", "Guerillas", "Optic", "Thieves", "Rokkr", "Thieves", "Thieves"],
+                            "Average": "21.00"
                         }
                     },
                     {
                         "map": "Gavutu",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["22 / 28", "29 / 27", "27 / 35", "20 / 33","22 / 28", "25 / 20","21 / 15", "20 / 13","20 / 23", ],
+                            "Opponent": ["Subliners", "Thieves", "Rokkr", "Faze", "Faze","Breach", "Legion", "Breach", "Ravens", "Thieves"],
+                            "Average": "22.89"
                         }
                     }
                 ]
@@ -4025,8 +4025,8 @@ const playerDb = [
 
     },
     {
-        "name": "",
-        "team": "",
+        "name": "Pred",
+        "team": "Surge",
         "gameModes": 
         [
             {
@@ -4037,33 +4037,33 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["29 / 30", "23 / 22", "21 / 29", "29 / 19", "33 / 29", "21 / 20", "35 / 27", "19 / 29","26 / 20", "24 / 29", "23 / 22", "21 / 24","22 / 29", "28 / 27", "34 / 23", "32 / 28",],
+                            "Opponent": ["Subliners", "Ultra","Ravens", "Legion", "Optic", "Guerrillas", "Thieves", "Faze", "ULtra" ,"Legion", "Thieves", "Mutineers", "Faze","Faze","Faze"],
+                            "Average": "26.25"
                         }
                     },
                     { 
                         "map": "Bocage",   
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["37 / 29", "23 / 31", "31 / 32", "40 / 42","25 / 31", "39 / 32", "32 / 30", "37 / 32","41 / 26", "41 / 31", "36 / 22", "39 / 30","30 / 35", "36 / 25", "39 / 21", "38 / 31","26 / 29", "46 / 36", "46 / 28"],
+                            "Opponent": ["Rokkr", "Mutineers", "Optic", "Breach", "Faze", "Optic", "Optic", "Faze", "Legion", "Mutineers", "Ravens", "Subliners", "Faze", "Faze", "Legion", "Breach", "Subliners", "Rokkr", "Breach"],
+                            "Average": "35.89"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["24 / 23", "22 / 26", "24 / 19", "23 / 20","23 / 24", "32 / 22", "33 / 27", "23 / 21","32 / 31", "25 / 25", "26 / 14", "37 / 26",],
+                            "Opponent": ["Ultra", "Legion", "Faze", "Thieves", "Mutineers", "Mutineers", "Faze", "Breach", "Subliners", "Rokkr", "Breach", ],
+                            "Average": "24.92"
                         }
                     },
                     {
                         "map": "Gavutu",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["21 / 26", "17 / 25", "8 / 20", "23 / 18","24 / 28", "27 / 29"],
+                            "Opponent": ["Rokkr", "Ravens", "Breach", "Guerrillas", "Ultra", "Subliners"],
+                            "Average": "20.00"
                         }
                     }
                 ]
@@ -4074,33 +4074,33 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["11 / 8", "11 / 6", "4 / 6", "11 / 7","7 / 5", "7 / 8", "5 / 6", "4 / 8","5 / 9", "6 / 8", "9 / 8", "6 / 4","7 / 7", "3 / 8",],
+                            "Opponent": ["Rokkr", "Faze", "Thieves", "Optic", "Faze", "Ultra", "Legion", "Mutineers", "Subliners", "Faze", "Breach", "Rokkr", "Breach"],
+                            "Average": "6.86"
                         }
                     },
                     { 
                         "map": "Bocage",   
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["11 / 8", "7 / 5", "7 / 6", "7 / 7","8 / 8"],
+                            "Opponent": ["Subliners", "Ultra", "Optic", "Faze"],
+                            "Average": "8.00"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["7 / 9", "5 / 9", "5 / 7", "6 / 3","5 / 7", "3 / 6", "8 / 5", "7 / 6","6 / 8", "12 / 6", "8 / 6", "11 / 8","4 / 7", "4 / 6", "3 / 8", "3 / 8",],
+                            "Opponent": ["Ultra", "Rokkr", "Mutineers", "Ravens", "Optic", "Legion", "Faze", "Guerrillas", "Faze", "Subliners", "Mutineers", "Faze", "Legion", "Faze", "Breach", "Breach"],
+                            "Average": "6.06"
                         }
                     },
                     {
                         "map": "Desert Seige",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["8 / 8", "5 / 6", "5 / 5", "3 / 5","6 / 8", "10 / 7", "4 / 6", "7 / 6",],
+                            "Opponent": ["Legion", "Breach", "Ultra", "Thieves", "Ravens", "Faze", "Subliners", "Rokkr"],
+                            "Average": "6.00"
                         }
                     }
                 ]
@@ -4113,25 +4113,25 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["35 / 29", "30 / 31", "38 / 30", "35 / 35","24 / 24", "30 / 27", "23 / 15", "25 / 22","24 / 17", "30 / 31", "29 / 33", "19 / 19","24 / 22", "40 / 28", "36 / 31", "34 / 22",],
+                            "Opponent": ["Rokkr", "Mutineers", "Optic", "Legion", "Breach", "Optic", "Thieves", "Optic", "Mutineers", "Mutineers", "Faze", "Faze", "Breach", "Subliners", "Rokkr", "Breach"],
+                            "Average": "30.00"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["37 / 19", "22 / 14", "21 / 20", "22 / 21","33 / 35", "34 / 29", "31 / 20", "39 / 35"],
+                            "Opponent": ["Ultra", "Legion", "Thieves", "Ravens", "Subliners", "Faze", "Legion", "Faze"],
+                            "Average": "29.88"
                         }
                     },
                     {
                         "map": "Gavutu",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["37 / 27", "22 / 31", "21 / 29", "23 / 33","33 / 32", "25 / 29", "27 / 29",],
+                            "Opponent": ["Subliners", "Ultra", "Ravens", "Faze", "Guerrillas", "Faze", "Guerrillas"],
+                            "Average": "26.86"
                         }
                     }
                 ]
@@ -4140,8 +4140,8 @@ const playerDb = [
 
     },
     {
-        "name": "",
-        "team": "",
+        "name": "Priestahh",
+        "team": "Rokkr",
         "gameModes": 
         [
             {
@@ -4152,33 +4152,33 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["21 / 26", "29 / 25", "17 / 26", "23 / 25", "24 / 26", "30 / 25", "19 / 20", "27 / 28", "18 / 19", "24 / 22"],
+                            "Opponent": ["Optic", "Ravens", "Faze", "Ultra", "Legion", "Ultra", "Thieves", "Mutineers", "Ravens", "Subliners"],
+                            "Average": "23.20"
                         }
                     },
                     { 
                         "map": "Bocage",   
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["24 / 31", "32 / 40", "26 / 31", "31 / 39", "34 / 28","34 / 27", "30 / 23", "34 / 36", "23 / 34", "25 / 30","38 / 33", "32 / 21", "25 / 25", "31 / 29"],
+                            "Opponent": ["Surge", "Guerrillas", "Thieves", "Subliners", "Ultra", "Mutineers", "Faze", "Breach", "Ultra", "Optic", "Surge", "Legion", "Subliners","Optic"],
+                            "Average": "29.93"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["30 / 28", "17 / 24", "31 / 26", "23 / 27", "29 / 20","22 / 22", "29 / 34", "22 / 30", "23 / 27", "16 / 25","23 / 20", "24 / 23", "15 / 18", "24 / 24",],
+                            "Opponent": ["Optic", "Ravens", "Guerrillas", "Thieves", "Legion", "Breach", "thieves", "Subliners", "Optic", "Thieves", "Optic", "Ravens", "Surge", "Legion"],
+                            "Average": "23.43"
                         }
                     },
                     {
                         "map": "Gavutu",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["17 / 23", "22 / 18", "16 / 23", "23 / 27", "17 / 22","12 / 20", "26 / 22", "21 / 17", "18 / 28"],
+                            "Opponent": ["Surge", "Guerrillas", "Thieves", "Ultra", "Optic", "Guerrillas", "Thieves", "Mutineers", "Optic"],
+                            "Average": "19.11"
                         }
                     }
                 ]
@@ -4189,33 +4189,33 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["9 / 2", "5 / 7", "4 / 9", "5 / 9", "2 / 6","", "7 / 7", "6 / 4", "10 / 6", "3 / 7","8 / 5", "4 / 8", "1 / 5", "7 / 8",],
+                            "Opponent": ["Optic", "Surge", "Faze", "Ultra", "Legion", "Thieves", "Thieves", "Mutineers", "Ultra", "Surge", "Legion", "Subliners", "Optic"],
+                            "Average": "5.46"
                         }
                     },
                     { 
                         "map": "Bocage",   
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["9 / 4", "6 / 6", "5 / 8", "6 / 2", "5 / 8","6 / 5", "10 / 1", "7 / 7", "7 / 8", "4 / 7","3 / 6", "3 / 8", "", "", "","", "", "", "", "","", "", "", "", "",],
+                            "Opponent": ["Guerrillas", " Legion", "Breach", "Thieves", "Subliners", "Guerrillas", "Faze", "Thieves", "Optic", "Mutineers", "Legion", "Optic"],
+                            "Average": "5.92"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["4 / 6", "4 / 5", "5 / 6", "5 / 6", "7 / 7","6 / 4", "7 / 8", ],
+                            "Opponent": ["Optic", "Surge", "Ravens", "Guerrillas", "Guerrillas", "Thieves", "Ultra"],
+                            "Average": "5.43"
                         }
                     },
                     {
                         "map": "Desert Seige",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["11 / 5", "9 / 5", "3 / 7", "5 / 6", "8 / 9","8 / 4", "6 / 9"],
+                            "Opponent": ["Optic", "Ultra", "Thieves", "Breach", "Ravens", "Surge", "Subliners"],
+                            "Average": "7.14"
                         }
                     }
                 ]
@@ -4228,1060 +4228,25 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["21 / 22", "23 / 28", "24 / 22", "20 / 25", "25 / 18","26 / 22", "18 / 35", "24 / 37", "21 / 20", "27 / 22","31 / 29", "17 / 24", "20 / 19", "29 / 29", "27 / 32","25 / 36", "37 / 25",],
+                            "Opponent": ["Optic", "Surge", "Raven", "Faze", "Ultra", "Legion", "Breach", "Optic", "Guerrillas", "Ultra", "Mutineers", "Breach", "Optic", "Mutineers", "Ravens", "Surge", "Optic"],
+                            "Average": "24.41"
                         }
                     },
                     { 
                         "map": "Berlin",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["33 / 38", "16 / 25", "25 / 24", "34 / 27", "20 / 17"],
+                            "Opponent": ["Thieves", "Faze", "Thieves", "Ultra", "Subliners"],
+                            "Average": "25.60"
                         }
                     },
                     {
                         "map": "Gavutu",
                         "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    }
-                ]
-            }
-        ]
-
-    },
-    {
-        "name": "",
-        "team": "",
-        "gameModes": 
-        [
-            {
-                
-                "mode": "Hardpoint",
-                "maps": 
-                [
-                    {
-                        "map": "Tuscan",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Bocage",   
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Berlin",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    {
-                        "map": "Gavutu",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    }
-                ]
-            },
-            {
-                "mode": "Search and Destroy",
-                "maps": [
-                    {
-                        "map": "Tuscan",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Bocage",   
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Berlin",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    {
-                        "map": "Desert Seige",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    }
-                ]
-            },
-            {
-        
-                "mode": "Control",
-                "maps": 
-                [
-                    {
-                        "map": "Tuscan",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Berlin",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    {
-                        "map": "Gavutu",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    }
-                ]
-            }
-        ]
-
-    },
-    {
-        "name": "",
-        "team": "",
-        "gameModes": 
-        [
-            {
-                
-                "mode": "Hardpoint",
-                "maps": 
-                [
-                    {
-                        "map": "Tuscan",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Bocage",   
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Berlin",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    {
-                        "map": "Gavutu",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    }
-                ]
-            },
-            {
-                "mode": "Search and Destroy",
-                "maps": [
-                    {
-                        "map": "Tuscan",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Bocage",   
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Berlin",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    {
-                        "map": "Desert Seige",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    }
-                ]
-            },
-            {
-        
-                "mode": "Control",
-                "maps": 
-                [
-                    {
-                        "map": "Tuscan",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Berlin",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    {
-                        "map": "Gavutu",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    }
-                ]
-            }
-        ]
-
-    },
-    {
-        "name": "",
-        "team": "",
-        "gameModes": 
-        [
-            {
-                
-                "mode": "Hardpoint",
-                "maps": 
-                [
-                    {
-                        "map": "Tuscan",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Bocage",   
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Berlin",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    {
-                        "map": "Gavutu",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    }
-                ]
-            },
-            {
-                "mode": "Search and Destroy",
-                "maps": [
-                    {
-                        "map": "Tuscan",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Bocage",   
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Berlin",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    {
-                        "map": "Desert Seige",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    }
-                ]
-            },
-            {
-        
-                "mode": "Control",
-                "maps": 
-                [
-                    {
-                        "map": "Tuscan",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Berlin",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    {
-                        "map": "Gavutu",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    }
-                ]
-            }
-        ]
-
-    },
-    {
-        "name": "",
-        "team": "",
-        "gameModes": 
-        [
-            {
-                
-                "mode": "Hardpoint",
-                "maps": 
-                [
-                    {
-                        "map": "Tuscan",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Bocage",   
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Berlin",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    {
-                        "map": "Gavutu",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    }
-                ]
-            },
-            {
-                "mode": "Search and Destroy",
-                "maps": [
-                    {
-                        "map": "Tuscan",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Bocage",   
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Berlin",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    {
-                        "map": "Desert Seige",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    }
-                ]
-            },
-            {
-        
-                "mode": "Control",
-                "maps": 
-                [
-                    {
-                        "map": "Tuscan",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Berlin",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    {
-                        "map": "Gavutu",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    }
-                ]
-            }
-        ]
-
-    },
-    {
-        "name": "",
-        "team": "",
-        "gameModes": 
-        [
-            {
-                
-                "mode": "Hardpoint",
-                "maps": 
-                [
-                    {
-                        "map": "Tuscan",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Bocage",   
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Berlin",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    {
-                        "map": "Gavutu",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    }
-                ]
-            },
-            {
-                "mode": "Search and Destroy",
-                "maps": [
-                    {
-                        "map": "Tuscan",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Bocage",   
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Berlin",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    {
-                        "map": "Desert Seige",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    }
-                ]
-            },
-            {
-        
-                "mode": "Control",
-                "maps": 
-                [
-                    {
-                        "map": "Tuscan",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Berlin",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    {
-                        "map": "Gavutu",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    }
-                ]
-            }
-        ]
-
-    },
-    {
-        "name": "",
-        "team": "",
-        "gameModes": 
-        [
-            {
-                
-                "mode": "Hardpoint",
-                "maps": 
-                [
-                    {
-                        "map": "Tuscan",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Bocage",   
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Berlin",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    {
-                        "map": "Gavutu",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    }
-                ]
-            },
-            {
-                "mode": "Search and Destroy",
-                "maps": [
-                    {
-                        "map": "Tuscan",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Bocage",   
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Berlin",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    {
-                        "map": "Desert Seige",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    }
-                ]
-            },
-            {
-        
-                "mode": "Control",
-                "maps": 
-                [
-                    {
-                        "map": "Tuscan",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Berlin",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    {
-                        "map": "Gavutu",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    }
-                ]
-            }
-        ]
-
-    },
-    {
-        "name": "",
-        "team": "",
-        "gameModes": 
-        [
-            {
-                
-                "mode": "Hardpoint",
-                "maps": 
-                [
-                    {
-                        "map": "Tuscan",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Bocage",   
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Berlin",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    {
-                        "map": "Gavutu",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    }
-                ]
-            },
-            {
-                "mode": "Search and Destroy",
-                "maps": [
-                    {
-                        "map": "Tuscan",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Bocage",   
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Berlin",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    {
-                        "map": "Desert Seige",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    }
-                ]
-            },
-            {
-        
-                "mode": "Control",
-                "maps": 
-                [
-                    {
-                        "map": "Tuscan",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Berlin",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    {
-                        "map": "Gavutu",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    }
-                ]
-            }
-        ]
-
-    },
-    {
-        "name": "",
-        "team": "",
-        "gameModes": 
-        [
-            {
-                
-                "mode": "Hardpoint",
-                "maps": 
-                [
-                    {
-                        "map": "Tuscan",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Bocage",   
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Berlin",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    {
-                        "map": "Gavutu",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    }
-                ]
-            },
-            {
-                "mode": "Search and Destroy",
-                "maps": [
-                    {
-                        "map": "Tuscan",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Bocage",   
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Berlin",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    {
-                        "map": "Desert Seige",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    }
-                ]
-            },
-            {
-        
-                "mode": "Control",
-                "maps": 
-                [
-                    {
-                        "map": "Tuscan",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Berlin",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    {
-                        "map": "Gavutu",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    }
-                ]
-            }
-        ]
-
-    },
-    {
-        "name": "",
-        "team": "",
-        "gameModes": 
-        [
-            {
-                
-                "mode": "Hardpoint",
-                "maps": 
-                [
-                    {
-                        "map": "Tuscan",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Bocage",   
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Berlin",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    {
-                        "map": "Gavutu",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    }
-                ]
-            },
-            {
-                "mode": "Search and Destroy",
-                "maps": [
-                    {
-                        "map": "Tuscan",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Bocage",   
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Berlin",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    {
-                        "map": "Desert Seige",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    }
-                ]
-            },
-            {
-        
-                "mode": "Control",
-                "maps": 
-                [
-                    {
-                        "map": "Tuscan",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    { 
-                        "map": "Berlin",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
-                        }
-                    },
-                    {
-                        "map": "Gavutu",
-                        "stats": {
-                            "kills": [],
-                            "Opponent": [],
-                            "Average": ""
+                            "kills": ["27 / 32", "30 / 27", "20 / 27", "23 / 23", "31 / 31","32 / 27",],
+                            "Opponent": ["Guerrillas","Guerrillas", "Thieves", "Thieves", "Subliners", "Legion"],
+                            "Average": "27.17"
                         }
                     }
                 ]
@@ -5380,7 +4345,7 @@ const playerDb = [
                         "map": "Tuscan",
                         "stats": {
                             "kills": ["26 / 19", "28 / 24" ,"24 / 25", "24 / 27", "33 / 32", "29 / 26", "28 / 24", "20 / 16", "31 / 31", "23 / 23", "27 / 21", "23 / 16", "31 / 28", "26 / 25", "19 / 29", "19 / 13", "17 / 22", "22 / 22", "12 / 23", "27 / 33", "22 / 23", "34 / 36"],
-                            "Opponent": ["Ravens", "Rokkr", "Legion", "Ultra", "Surge", "Faze", "Faze", "Thieves", "Surge", "Mutineers", "Surge", "Thieves", "Rokkr", "Subliner", "Mutineers", "Ravens", "Breach", "Rokkr", "Legion", "Rokkr", "Breach", "Faze"],
+                            "Opponent": ["Ravens", "Rokkr", "Legion", "Ultra", "Surge", "Faze", "Faze", "Thieves", "Surge", "Mutineers", "Surge", "Thieves", "Rokkr", "Subliners", "Mutineers", "Ravens", "Breach", "Rokkr", "Legion", "Rokkr", "Breach", "Faze"],
                             "Average": "24.77"
                         }
                     },
@@ -5398,6 +4363,1616 @@ const playerDb = [
                             "kills": ["23 / 18", "13 / 12", "27 / 20", "32 / 27", "29 / 23", "24 / 14", "18 / 25"],
                             "Opponent": ["Breach", "Ravens", "Faze", "Guerrillas", "Faze", "Mutineers", "Ultra"],
                             "Average": "23.71"
+                        }
+                    }
+                ]
+            }
+        ]
+
+    },
+    {
+        "name": "Shotzzy",
+        "team": "Optic",
+        "gameModes": 
+        [
+            {
+                
+                "mode": "Hardpoint",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": ["34 / 18", "24 / 28", "30 / 17", "21 / 33", "23 / 17", "37 / 34", "38 / 27", "25 / 24", "31 / 27", "24 / 27","27 / 27", "31 / 27", "39 / 27", "30 / 27"],
+                            "Opponent": ["Rokkr", "Breach", "Ravens", "Faze", "Thieves", "Surge", "Thieves", "Mutineers", "Subliners", "Mutineers", "Ultra", "Breach", "Ultra", "Faze"],
+                            "Average": "29.57"
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": ["30 / 32", "41 / 28", "39 / 28", "41 / 31", "24 / 30","28 / 41", "32 / 32", "28 / 28", "35 / 32", "36 / 31","42 / 33", "30 / 34", "35 / 21", "33 / 31", "41 / 30","27 / 34", "20 / 35", "37 / 37", "33 / 30"],
+                            "Opponent": ["Ravens", "Legion", "Ultra", "Surge", "Faze", "Surge", "Mutineers", "Surge", "Thieves", "Guerrillas", "Breach", "Rokkr", "Legion", "Subliners", "Ultra", "Rokkr", "Breach", "Ultra", "Faze"],
+                            "Average": "33.26"
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": ["17 / 28", "35 / 30", "15 / 28", "35 / 28", "32 / 27","29 / 20", "16 / 25", "31 / 24", "15 / 25", "42 / 17","30 / 33", "25 / 31", "22 / 28", "14 / 23", "27 / 24",],
+                            "Opponent": ["Ravens", "Rokkr", "Ravens", "Thieves", "Rokkr", "Thieves", "Mutineers", "Faze", "Subliners", "Thieves", "Mutineers", "Thieves", "Rokkr", "Legion", "Subliners"],
+                            "Average": "25.67"
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": ["29 / 27", "21 / 19", "27 / 16", "21 / 21", "13 / 25","30 / 17", "27 / 24", "29 / 23", "30 / 20", "22 / 21","23 / 24", "18 / 25",],
+                            "Opponent": ["Breach", "Faze", "Faze", "Guerrillas", "Faze", "Rokkr", "Mutineers", "Faze", "Ravens", "Thieves", "Breach", "Rokkr"],
+                            "Average": "24.17"
+                        }
+                    }
+                ]
+            },
+            {
+                "mode": "Search and Destroy",
+                "maps": [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": ["3 / 7", "8 / 4", "10 / 7", "9 / 2", "5 / 8","10 / 8", "13 / 6", "10 / 5", "8 / 5", "11 / 7","10 / 3", "9 / 7", "9 / 6"],
+                            "Opponent": ["Rokkr", "Ultra", "Breach", "Faze", "Faze", "Thieves", "Faze", "Surge", "Thieves", "Mutineers", "Legion", "Rokkr", "Breach"],
+                            "Average": "8.85"
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": ["13 / 6", "7 / 6", "10 / 7", "7 / 9", "8 / 8","11 / 9", "5 / 9", "4 / 5", "2 / 8", "8 / 5","13 / 8", "14 / 3",],
+                            "Opponent": ["Ravens", "Mutineers", "Thieves", "Faze", "Ravens", "Breach", "Rokkr", "Subliners", "Ultra", "Rokkr", "Ultra", "Faze"],
+                            "Average": "8.50"
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": ["7 / 9", "12 / 6", "6 / 7", "8 / 6", "3 / 8","2 / 4", "4 / 7", "9 / 6", "4 / 7", "5 / 6","8 / 6", "1 / 10", "12 / 6", "2 / 7", "6 / 6","11 / 8", "5 / 8", "5 / 11", "10 / 7"],
+                            "Opponent": ["Ravens", "Rokkr", "Legion", "Mutineers", "Faze", "Ravens", "Faze", "Mutineers", "Mutineers", "Guerrillas", "Mutineers",  "Subliners", "Thieves", "Mutineers", "Guerrillas", "Thieves", "Breach", "Ultra", "Ultra"],
+                            "Average": "8.10"
+                        }
+                    },
+                    {
+                        "map": "Desert Seige",
+                        "stats": {
+                            "kills": ["6 / 10", "2 / 6", "13 / 3", "7 / 7"],
+                            "Opponent": ["Faze", "Thieves", "Guerrillas", "Rokkr"],
+                            "Average": "7.00"
+                        }
+                    }
+                ]
+            },
+            {
+        
+                "mode": "Control",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": ["20 / 25", "27 / 26", "24 / 26", "27 / 24", "28 / 27","20 / 30", "29 / 30", "24 / 12", "34 / 32", "24 / 25","21 / 30", "26 / 15", "28 / 27", "27 / 26", "23 / 28","21 / 18", "13 / 21", "23 / 21", "19 / 25", "25 / 36","26 / 25", "28 / 33",],
+                            "Opponent": ["Ravens", "Rokkr", "Legion", "Ultra", "Surge", "Faze", "Faze", "Thieves", "Surge", "Mutineers", "Surge", "Thieves", "Rokkr", "Subliners", "Mutineers", "Ravens", "Breach", "Rokkr", "Legion", "Rokkr", "Breach", "Faze"],
+                            "Average": "24.41"
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": ["28 / 26", "22 / 17", "23 / 23", "18 / 22", "20 / 20","18 / 19", "24 / 29",],
+                            "Opponent": ["Guerrillas", "Faze", "Thieves", "Thieves", "Guerrillas", "Subliners", "Ultra"],
+                            "Average": "21.86"
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": ["25 / 16", "20 / 11", "22 / 22", "36 / 24", "16 / 20","24 / 16", "18 / 28"],
+                            "Opponent": ["Breach", "Ravens", "Faze", "Guerrillas", "Faze", "Mutineers", "Ultra"],
+                            "Average": "23.00"
+                        }
+                    }
+                ]
+            }
+        ]
+
+    },
+    {
+        "name": "Sib",
+        "team": "Surge",
+        "gameModes": 
+        [
+            {
+                
+                "mode": "Hardpoint",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": ["39 / 22", "36 / 17", "21 / 30", "32 / 17", "29 / 32", "25 / 19","35 / 27", "22 / 24", "23 / 21", "35 / 22", "32 / 24", "23 / 21","25 / 24", "33 / 29", "31 / 21", "26 / 29",],
+                            "Opponent": ["Subliners", "Ultra","Ravens", "Legion", "Optic", "Guerrillas", "Thieves", "Faze", "ULtra" ,"Legion", "Thieves", "Mutineers", "Faze","Faze","Faze"],
+                            "Average": "29.19"
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": ["29 / 31", "25 / 31", "29 / 35", "39 / 39", "22 / 35", "47 / 28","23 / 24", "39 / 37", "37 / 30", "30 / 28", "28 / 22", "36 / 33","31 / 33", "32 / 29", "32 / 28", "34 / 35", "21 / 24", "30 / 33","34 / 30", ],
+                            "Opponent": ["Rokkr", "Mutineers", "Optic", "Breach", "Faze", "Optic", "Optic", "Faze", "Legion", "Mutineers", "Ravens", "Subliners", "Faze", "Faze", "Legion", "Breach", "Subliners", "Rokkr", "Breach"],
+                            "Average": "31.47"
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": ["22 / 21", "21 / 26", "18 / 19", "21 / 20", "24 / 28", "25 / 21","25 / 18", "20 / 25", "28 / 26", "28 / 26", "26 / 14", "0 / 0","28 / 26", ],
+                            "Opponent": ["Ultra", "Legion", "Faze", "Thieves", "Mutineers", "Mutineers", "Faze", "Breach", "Subliners", "Rokkr", "Breach", "Breach"],
+                            "Average": "22.00"
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": ["20 / 20", "19 / 23", "23 / 22", "20 / 21", "24 / 19", "24 / 21",],
+                            "Opponent": ["Rokkr", "Ravens", "Breach", "Guerrillas", "Ultra", "Subliners"],
+                            "Average": "21.67"
+                        }
+                    }
+                ]
+            },
+            {
+                "mode": "Search and Destroy",
+                "maps": [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": ["7 / 8", "7 / 8", "5 / 5", "5 / 8", " / 6", "5 / 8", "2 / 6", "9 / 6", "7 / 9", "9 / 8", "7 / 7", "2 / 5","7 / 7", "5 / 5"],
+                            "Opponent": ["Rokkr", "Faze", "Thieves", "Optic", "Faze", "Ultra", "Legion", "Mutineers", "Subliners", "Faze", "Breach", "Rokkr", "Breach"],
+                            "Average": "6.14"
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": ["9 / 7", "5 / 1", "7 / 6", "4 / 6", "8 / 8",],
+                            "Opponent": ["Subliners", "Ultra", "Optic", "Faze"],
+                            "Average": "6.60"
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": ["5 / 9", "9 / 7", "1 / 7", "4 / 6", "4 / 9", "9 / 5","9 / 4", "6 / 6", "5 / 8", "6 / 5", "8 / 6", "10 / 9","9 / 4", "6 / 5", "5 / 5", "8 / 7"],
+                            "Opponent": ["Ultra", "Rokkr", "Mutineers", "Ravens", "Optic", "Legion", "Faze", "Guerrillas", "Faze", "Subliners", "Mutineers", "Faze", "Legion", "Faze", "Breach", "Breach"],
+                            "Average": "6.50"
+                        }
+                    },
+                    {
+                        "map": "Desert Seige",
+                        "stats": {
+                            "kills": ["2 / 10", "5 / 7", "4 / 4", "11 / 4", "6 / 7", "2 / 7","3 / 5", "5 / 6",],
+                            "Opponent": ["Legion", "Breach", "Ultra", "Thieves", "Ravens", "Faze", "Subliners", "Rokkr"],
+                            "Average": "4.75"
+                        }
+                    }
+                ]
+            },
+            {
+        
+                "mode": "Control",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": ["28 / 25", "21 / 31", "25 / 33", "29 / 28", "25 / 20", "33 / 38","23 / 15", "34 / 21", "22 / 18", "34 / 34", "31 / 35", "23 / 13","13 / 25", "25 / 33", "45 / 22", "26 / 25", "26 / 25"],
+                            "Opponent": ["Rokkr", "Mutineers", "Optic", "Legion", "Breach", "Optic", "Thieves", "Optic", "Mutineers", "Mutineers", "Faze", "Faze", "Breach", "Subliners", "Rokkr", "Breach"],
+                            "Average": "27.24"
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": ["22 / 23", "20 / 17", "25 / 17", "28 / 14", "35 / 37", "34 / 31","28 / 22", "30 / 31",],
+                            "Opponent": ["Ultra", "Legion", "Thieves", "Ravens", "Subliners", "Faze", "Legion", "Faze"],
+                            "Average": "27.75"
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": ["26 / 25", "34 / 25", "19 / 25", "33 / 28", "30 / 22", "22 / 24","40 / 25",],
+                            "Opponent": ["Subliners", "Ultra", "Ravens", "Faze", "Guerrillas", "Faze", "Guerrillas"],
+                            "Average": "29.14"
+                        }
+                    }
+                ]
+            }
+        ]
+
+    },
+    {
+        "name": "Simp",
+        "team": "Faze",
+        "gameModes": 
+        [
+            {
+                
+                "mode": "Hardpoint",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "mode": "Search and Destroy",
+                "maps": [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Desert Seige",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            },
+            {
+        
+                "mode": "Control",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            }
+        ]
+
+    },
+    {
+        "name": "",
+        "team": "",
+        "gameModes": 
+        [
+            {
+                
+                "mode": "Hardpoint",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "mode": "Search and Destroy",
+                "maps": [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Desert Seige",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            },
+            {
+        
+                "mode": "Control",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            }
+        ]
+
+    },
+    {
+        "name": "",
+        "team": "",
+        "gameModes": 
+        [
+            {
+                
+                "mode": "Hardpoint",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "mode": "Search and Destroy",
+                "maps": [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Desert Seige",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            },
+            {
+        
+                "mode": "Control",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            }
+        ]
+
+    },
+    {
+        "name": "",
+        "team": "",
+        "gameModes": 
+        [
+            {
+                
+                "mode": "Hardpoint",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "mode": "Search and Destroy",
+                "maps": [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Desert Seige",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            },
+            {
+        
+                "mode": "Control",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            }
+        ]
+
+    },
+    {
+        "name": "",
+        "team": "",
+        "gameModes": 
+        [
+            {
+                
+                "mode": "Hardpoint",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "mode": "Search and Destroy",
+                "maps": [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Desert Seige",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            },
+            {
+        
+                "mode": "Control",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            }
+        ]
+
+    },
+    {
+        "name": "",
+        "team": "",
+        "gameModes": 
+        [
+            {
+                
+                "mode": "Hardpoint",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "mode": "Search and Destroy",
+                "maps": [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Desert Seige",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            },
+            {
+        
+                "mode": "Control",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            }
+        ]
+
+    },
+    {
+        "name": "",
+        "team": "",
+        "gameModes": 
+        [
+            {
+                
+                "mode": "Hardpoint",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "mode": "Search and Destroy",
+                "maps": [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Desert Seige",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            },
+            {
+        
+                "mode": "Control",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            }
+        ]
+
+    },
+    {
+        "name": "",
+        "team": "",
+        "gameModes": 
+        [
+            {
+                
+                "mode": "Hardpoint",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "mode": "Search and Destroy",
+                "maps": [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Desert Seige",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            },
+            {
+        
+                "mode": "Control",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            }
+        ]
+
+    },
+    {
+        "name": "",
+        "team": "",
+        "gameModes": 
+        [
+            {
+                
+                "mode": "Hardpoint",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "mode": "Search and Destroy",
+                "maps": [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Desert Seige",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            },
+            {
+        
+                "mode": "Control",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            }
+        ]
+
+    },
+    {
+        "name": "",
+        "team": "",
+        "gameModes": 
+        [
+            {
+                
+                "mode": "Hardpoint",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "mode": "Search and Destroy",
+                "maps": [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Desert Seige",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            },
+            {
+        
+                "mode": "Control",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            }
+        ]
+
+    },
+    {
+        "name": "",
+        "team": "",
+        "gameModes": 
+        [
+            {
+                
+                "mode": "Hardpoint",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "mode": "Search and Destroy",
+                "maps": [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Desert Seige",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            },
+            {
+        
+                "mode": "Control",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            }
+        ]
+
+    },
+    {
+        "name": "",
+        "team": "",
+        "gameModes": 
+        [
+            {
+                
+                "mode": "Hardpoint",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "mode": "Search and Destroy",
+                "maps": [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Bocage",   
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Desert Seige",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    }
+                ]
+            },
+            {
+        
+                "mode": "Control",
+                "maps": 
+                [
+                    {
+                        "map": "Tuscan",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    { 
+                        "map": "Berlin",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
+                        }
+                    },
+                    {
+                        "map": "Gavutu",
+                        "stats": {
+                            "kills": [],
+                            "Opponent": [],
+                            "Average": ""
                         }
                     }
                 ]
