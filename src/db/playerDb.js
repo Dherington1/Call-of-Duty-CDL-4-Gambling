@@ -5149,7 +5149,7 @@ const playerDb = [
                     {
                         "map": "Tuscan",
                         "stats": {
-                            "kills": ["28 / 27", "32 / 27", "26 / 24", "26 / 23", "21 / 28", "30 / 22","28 / 29", "31 / 31", "20 / 23", "26 / 22", "30 / 35", "34 / 23","19 / 26", "28 / 32", "30 / 28", "23 / 38", "30 / 32", "","", "", "", "", "", "","", "", "", "", "", "","", "", "", "", "", "",],
+                            "kills": ["28 / 27", "32 / 27", "26 / 24", "26 / 23", "21 / 28", "30 / 22","28 / 29", "31 / 31", "20 / 23", "26 / 22", "30 / 35", "34 / 23","19 / 26", "28 / 32", "30 / 28", "23 / 38", "30 / 32"],
                             "Opponent": ["Optic", "Surge", "Ravens", "Faze", "Ultra", "Legion", "Breach", "Optic", "Guerrillas", "Ultra", "Mutineers", "Breach", "Optic", "Mutineers", "Ravens", "Surge", "Optic"],
                             "Average": "27.18"
                         }
@@ -5242,7 +5242,7 @@ const playerDb = [
                         "map": "Berlin",
                         "stats": {
                             "kills": ["6 / 7", "6 / 6", "9 / 5", "8 / 4", "3 / 8","10 / 8", "1 / 6", "6 / 5", "5 / 8", "6 / 7","6 / 8"],
-                            "Opponent": ["Faze", "Optic", "Thieves", "Surge", "Breach", "ultra", "Ravens", "Subliners", "Surge", "Mutineers", "Faze"],
+                            "Opponent": ["Faze", "Optic", "Thieves", "Surge", "Breach", "Ultra", "Ravens", "Subliners", "Surge", "Mutineers", "Faze"],
                             "Average": "6.00"
                         }
                     },
