@@ -29,7 +29,7 @@ function Coffee() {
     <CoffeeContainer>
      
         <p>If you find this project useful, please consider making a donation to keep it alive.</p>
-        <Support src="/Coffee/bmc-button.png" alt="support"  onClick={navigateCoffee}/>
+        <Support src="Coffee/bmc-button.png" alt="support"  onClick={navigateCoffee}/>
     </CoffeeContainer>
   )
  }
