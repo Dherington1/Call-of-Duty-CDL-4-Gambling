@@ -7,8 +7,7 @@ This website is a great resource for Call of Duty gambling on Prize Picks. It al
 https://dherington1.github.io/Call-of-Duty-CDL-4-Gambling/
 ## Demo
 
-![Comms-demo-gif](https://user-images.githubusercontent.com/87780351/182467566-e30e45f5-e5ac-4438-b482-a85637b72bec.gif)
-
+![Comms-demo](https://user-images.githubusercontent.com/87780351/182467832-d2edf9e4-5c3e-4f84-948d-9424b00cdadc.gif)
 
 ## Used By
 
@@ -21,4 +20,5 @@ This project is used by the following Discords:
 ## Feedback
 
 If you have any feedback, please reach out to me at dherington2@gmail.com
+
 
