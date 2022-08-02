@@ -7,7 +7,7 @@ function App() {
   
   return (
     <>
-        <Router basename="/">
+        <Router basename="Comms">
           <Switch>
             <Route exact path="/" component={Homepage} />
             <Route exact path='/MW2022' component={MW2022Page}/>
