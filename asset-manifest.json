@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Call-of-Duty-CDL-4-Gambling/static/css/main.1b3dafdf.css",
-    "main.js": "/Call-of-Duty-CDL-4-Gambling/static/js/main.39385757.js",
+    "main.js": "/Call-of-Duty-CDL-4-Gambling/static/js/main.084c7a8d.js",
     "static/js/787.e853281f.chunk.js": "/Call-of-Duty-CDL-4-Gambling/static/js/787.e853281f.chunk.js",
     "index.html": "/Call-of-Duty-CDL-4-Gambling/index.html",
     "main.1b3dafdf.css.map": "/Call-of-Duty-CDL-4-Gambling/static/css/main.1b3dafdf.css.map",
-    "main.39385757.js.map": "/Call-of-Duty-CDL-4-Gambling/static/js/main.39385757.js.map",
+    "main.084c7a8d.js.map": "/Call-of-Duty-CDL-4-Gambling/static/js/main.084c7a8d.js.map",
     "787.e853281f.chunk.js.map": "/Call-of-Duty-CDL-4-Gambling/static/js/787.e853281f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b3dafdf.css",
-    "static/js/main.39385757.js"
+    "static/js/main.084c7a8d.js"
   ]
 }
