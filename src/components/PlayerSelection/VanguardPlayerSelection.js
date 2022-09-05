@@ -65,7 +65,8 @@ const PlayerSelection = () => {
     const handlePlayerPicked = (e) => {
         // get id from DOM
         setId(e.target.id);
-        setPlayerTeam(e.target.className);
+        // setPlayerTeam(e.target.className);
+        setPlayerTeam(e.target.title);
     }
 
     // reference to global state to push an action to data 
@@ -290,7 +291,7 @@ const PlayerSelection = () => {
                                     label="Select Player"
                                 >
                                     {playerDb.map(player => (
-                                        <MenuItem class={player.team} value={player.name} id={player.name} onClick={handlePlayerPicked}>{player.name}</MenuItem>
+                                        <MenuItem title={player.team} value={player.name} id={player.name} onClick={handlePlayerPicked}>{player.name}</MenuItem>
                                     ))}
                                 </Select>
                             </FormControl>
